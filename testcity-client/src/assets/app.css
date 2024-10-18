@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('./fonts/Proxima-Nova.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body{
+    margin: 0;
+    overscroll-behavior: none;
+}
+
+/* .city-view{
+    display: flex;
+    height: 60dvh;
+    width: 100dvw;
+} */

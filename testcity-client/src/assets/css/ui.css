@@ -1,0 +1,43 @@
+.ui-input-repo-container{
+    background-color: #060000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.ui-input-repo-container input{
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.8);
+    width: 40dvw;
+    height: 30px;
+    font-size: 15px;
+    padding: 5px 12px 5px 12px;
+}
+.ui-input-repo-container h4{
+    font-family: 'ProximaNova';
+    font-size: 20px;
+    color: aliceblue;
+    margin: 0 0 10px 0;
+}
+.ui-input-repo-container button{
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-family: 'ProximaNova';
+    font-size: 16px;
+    margin: 20px 0 10px 0;
+    transition: 200ms;
+}
+.ui-input-repo-container button:hover{
+    background-color: rgba(0, 117, 152, 0.8);
+    color: aliceblue;
+    scale: 1.1;
+    transition: 200ms;
+}
+
+@media (max-width: 650px){
+    .ui-input-repo-container input{
+        width: 70dvw;
+    }
+}
