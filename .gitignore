@@ -1,0 +1,21 @@
+1. Add the `.DS_Store` pattern to your `.gitignore` file (which you already did):
+    ```ignore
+    **/.DS_Store
+    ```
+**/.DS_Store
+2. Remove the `.DS_Store` files from the repository's index:
+    ```sh
+    find . -name .DS_Store -print0 | xargs -0 git rm --cached
+    ```
+
+3. Commit the changes:
+    ```sh
+    git commit -m "Remove .DS_Store files from repository"
+    ```
+
+4. Push the changes to the remote repository:
+    ```sh
+    git push
+    ```
+
+This will remove the `.DS_Store` files from the repository and ensure they are ignored in future commits.
