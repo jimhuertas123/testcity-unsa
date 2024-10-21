@@ -3,11 +3,8 @@
 /node_modules
 /build
 
-#Uploads (data .xlsx)
-**/uploads
-**/venv/
-
-**/_paraborrar_
+#RepoClons
+/repositories
 
 # Logs
 logs
