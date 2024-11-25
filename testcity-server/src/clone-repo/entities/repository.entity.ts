@@ -2,7 +2,12 @@ import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity()
 export class Repository {
-    @PrimaryGeneratedColumn('uuid')
+    // @PrimaryGeneratedColumn('uuid')
+    @Column('varchar', {
+        primary: true,
+        unique: true,
+        length: 255
+    })
     reportId: string;
     
     @Column('varchar', {

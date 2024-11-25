@@ -9,7 +9,7 @@ import { Repository } from './entities/repository.entity';
   controllers: [CloneRepoController],
   providers: [GitService, CloneRepoService],
   imports: [
-    GitService,
+    // GitService,
     TypeOrmModule.forFeature([Repository]),
   ],
   
