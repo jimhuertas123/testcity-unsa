@@ -1,0 +1,12 @@
+{
+    "directory": "repositories/example-test01904cc02a21c32db126a81403127e6412f707e9/src/",
+    "totalLines": 319,
+    "totalStatements": 77,
+    "files": [
+        {
+            "file": "index.js",
+            "lines": 65,
+            "statements": 17
+        }
+    ]
+}

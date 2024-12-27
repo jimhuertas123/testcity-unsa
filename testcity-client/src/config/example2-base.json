@@ -1,0 +1,444 @@
+{
+    "directory": "lib/",
+    "totalLines": 12900,
+    "totalStatements": 2145,
+    "files": [
+      {
+        "directory": "lib/browser/",
+        "totalLines": 86,
+        "totalStatements": 18,
+        "files": [
+          {
+            "file": "highlight-tags.js",
+            "lines": 40,
+            "statements": 13
+          },
+          {
+            "file": "parse-query.js",
+            "lines": 25,
+            "statements": 5
+          },
+          {
+            "file": "template.js",
+            "lines": 21,
+            "statements": 0
+          }
+        ]
+      },
+      {
+        "directory": "lib/cli/",
+        "totalLines": 2241,
+        "totalStatements": 321,
+        "files": [
+          {
+            "file": "cli.js",
+            "lines": 94,
+            "statements": 13
+          },
+          {
+            "file": "collect-files.js",
+            "lines": 138,
+            "statements": 25
+          },
+          {
+            "file": "commands.js",
+            "lines": 15,
+            "statements": 0
+          },
+          {
+            "file": "config.js",
+            "lines": 101,
+            "statements": 18
+          },
+          {
+            "file": "index.js",
+            "lines": 4,
+            "statements": 0
+          },
+          {
+            "file": "init.js",
+            "lines": 37,
+            "statements": 9
+          },
+          {
+            "file": "lookup-files.js",
+            "lines": 156,
+            "statements": 24
+          },
+          {
+            "file": "node-flags.js",
+            "lines": 86,
+            "statements": 11
+          },
+          {
+            "file": "one-and-dones.js",
+            "lines": 70,
+            "statements": 11
+          },
+          {
+            "file": "options.js",
+            "lines": 338,
+            "statements": 58
+          },
+          {
+            "file": "run-helpers.js",
+            "lines": 305,
+            "statements": 53
+          },
+          {
+            "file": "run-options-metadata.js",
+            "lines": 138,
+            "statements": 14
+          },
+          {
+            "file": "run.js",
+            "lines": 381,
+            "statements": 26
+          },
+          {
+            "file": "watch-run.js",
+            "lines": 378,
+            "statements": 59
+          }
+        ]
+      },
+      {
+        "file": "context.js",
+        "lines": 87,
+        "statements": 13
+      },
+      {
+        "file": "errors.js",
+        "lines": 564,
+        "statements": 94
+      },
+      {
+        "file": "hook.js",
+        "lines": 90,
+        "statements": 11
+      },
+      {
+        "directory": "lib/interfaces/",
+        "totalLines": 583,
+        "totalStatements": 52,
+        "files": [
+          {
+            "file": "bdd.js",
+            "lines": 115,
+            "statements": 8
+          },
+          {
+            "file": "common.js",
+            "lines": 194,
+            "statements": 8
+          },
+          {
+            "file": "exports.js",
+            "lines": 61,
+            "statements": 8
+          },
+          {
+            "file": "index.js",
+            "lines": 7,
+            "statements": 0
+          },
+          {
+            "file": "qunit.js",
+            "lines": 99,
+            "statements": 8
+          },
+          {
+            "file": "tdd.js",
+            "lines": 107,
+            "statements": 20
+          }
+        ]
+      },
+      {
+        "file": "mocha.js",
+        "lines": 1333,
+        "statements": 149
+      },
+      {
+        "directory": "lib/nodejs/",
+        "totalLines": 1479,
+        "totalStatements": 212,
+        "files": [
+          {
+            "file": "buffered-worker-pool.js",
+            "lines": 189,
+            "statements": 19
+          },
+          {
+            "file": "esm-utils.js",
+            "lines": 107,
+            "statements": 13
+          },
+          {
+            "file": "file-unloader.js",
+            "lines": 16,
+            "statements": 3
+          },
+          {
+            "file": "parallel-buffered-runner.js",
+            "lines": 434,
+            "statements": 74
+          },
+          {
+            "directory": "lib/nodejs/reporters/",
+            "totalLines": 166,
+            "totalStatements": 21,
+            "files": [
+              {
+                "file": "parallel-buffered.js",
+                "lines": 166,
+                "statements": 21
+              }
+            ]
+          },
+          {
+            "file": "serializer.js",
+            "lines": 415,
+            "statements": 56
+          },
+          {
+            "file": "worker.js",
+            "lines": 152,
+            "statements": 26
+          }
+        ]
+      },
+      {
+        "file": "pending.js",
+        "lines": 17,
+        "statements": 1
+      },
+      {
+        "file": "plugin-loader.js",
+        "lines": 287,
+        "statements": 37
+      },
+      {
+        "directory": "lib/reporters/",
+        "totalLines": 2815,
+        "totalStatements": 617,
+        "files": [
+          {
+            "file": "base.js",
+            "lines": 592,
+            "statements": 81
+          },
+          {
+            "file": "doc.js",
+            "lines": 96,
+            "statements": 28
+          },
+          {
+            "file": "dot.js",
+            "lines": 82,
+            "statements": 29
+          },
+          {
+            "file": "html.js",
+            "lines": 421,
+            "statements": 71
+          },
+          {
+            "file": "index.js",
+            "lines": 20,
+            "statements": 0
+          },
+          {
+            "file": "json-stream.js",
+            "lines": 93,
+            "statements": 21
+          },
+          {
+            "file": "json.js",
+            "lines": 163,
+            "statements": 41
+          },
+          {
+            "file": "landing.js",
+            "lines": 117,
+            "statements": 32
+          },
+          {
+            "file": "list.js",
+            "lines": 79,
+            "statements": 30
+          },
+          {
+            "file": "markdown.js",
+            "lines": 113,
+            "statements": 35
+          },
+          {
+            "file": "min.js",
+            "lines": 53,
+            "statements": 12
+          },
+          {
+            "file": "nyan.js",
+            "lines": 268,
+            "statements": 58
+          },
+          {
+            "file": "progress.js",
+            "lines": 105,
+            "statements": 39
+          },
+          {
+            "file": "spec.js",
+            "lines": 100,
+            "statements": 34
+          },
+          {
+            "file": "tap.js",
+            "lines": 294,
+            "statements": 59
+          },
+          {
+            "file": "xunit.js",
+            "lines": 219,
+            "statements": 47
+          }
+        ]
+      },
+      {
+        "file": "runnable.js",
+        "lines": 475,
+        "statements": 65
+      },
+      {
+        "file": "runner.js",
+        "lines": 1268,
+        "statements": 222
+      },
+      {
+        "file": "stats-collector.js",
+        "lines": 84,
+        "statements": 28
+      },
+      {
+        "file": "suite.js",
+        "lines": 667,
+        "statements": 94
+      },
+      {
+        "file": "test.js",
+        "lines": 114,
+        "statements": 16
+      },
+      {
+        "file": "utils.js",
+        "lines": 699,
+        "statements": 105
+      },
+      {
+        "file": "utils1.js",
+        "lines": 699,
+        "statements": 105
+      },
+      {
+        "file": "utils2.js",
+        "lines": 699,
+        "statements": 105
+      },
+      {
+        "file": "utils3.js",
+        "lines": 699,
+        "statements": 105
+      },
+      {
+        "file": "utils4.js",
+        "lines": 699,
+        "statements": 105
+      },
+      {
+        "file": "utils5.js",
+        "lines": 699,
+        "statements": 105
+      },
+      {
+        "file": "utils6.js",
+        "lines": 699,
+        "statements": 105
+      },
+      {
+        "file": "utils7.js",
+        "lines": 699,
+        "statements": 105
+      },
+      {
+        "file": "utils8.js",
+        "lines": 699,
+        "statements": 105
+      },
+      {
+        "file": "utils9.js",
+        "lines": 699,
+        "statements": 105
+      },
+      {
+        "file": "utils10.js",
+        "lines": 699,
+        "statements": 105
+      },
+      {
+        "file": "utils11.js",
+        "lines": 699,
+        "statements": 105
+      },
+      {
+        "file": "utils12.js",
+        "lines": 699,
+        "statements": 105
+      },
+      {
+        "file": "utils13.js",
+        "lines": 699,
+        "statements": 105
+      },
+      {
+        "file": "utils14.js",
+        "lines": 699,
+        "statements": 105
+      },
+      {
+        "file": "utils15.js",
+        "lines": 699,
+        "statements": 105
+      },
+      {
+        "file": "utils16.js",
+        "lines": 699,
+        "statements": 105
+      },
+      {
+        "file": "utils17.js",
+        "lines": 699,
+        "statements": 105
+      },
+      {
+        "file": "utils18.js",
+        "lines": 699,
+        "statements": 105
+      },
+      {
+        "file": "utils19.js",
+        "lines": 699,
+        "statements": 105
+      },
+      {
+        "file": "utils20.js",
+        "lines": 699,
+        "statements": 105
+      },
+      {
+        "file": "utils21.js",
+        "lines": 699,
+        "statements": 105
+      }
+    ]
+  }

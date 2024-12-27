@@ -1,0 +1,5273 @@
+{
+    "directory": "packages/",
+    "totalLines": 69702,
+    "totalStatements": 12536,
+    "files": [
+      {
+        "directory": "packages/common/",
+        "totalLines": 13662,
+        "totalStatements": 2134,
+        "files": [
+          {
+            "file": "constants.ts",
+            "lines": 48,
+            "statements": 32
+          },
+          {
+            "directory": "packages/common/decorators/",
+            "totalLines": 1918,
+            "totalStatements": 259,
+            "files": [
+              {
+                "directory": "packages/common/decorators/core/",
+                "totalLines": 769,
+                "totalStatements": 127,
+                "files": [
+                  {
+                    "file": "apply-decorators.ts",
+                    "lines": 31,
+                    "statements": 3
+                  },
+                  {
+                    "file": "bind.decorator.ts",
+                    "lines": 21,
+                    "statements": 3
+                  },
+                  {
+                    "file": "catch.decorator.ts",
+                    "lines": 29,
+                    "statements": 5
+                  },
+                  {
+                    "file": "controller.decorator.ts",
+                    "lines": 179,
+                    "statements": 31
+                  },
+                  {
+                    "file": "dependencies.decorator.ts",
+                    "lines": 23,
+                    "statements": 7
+                  },
+                  {
+                    "file": "exception-filters.decorator.ts",
+                    "lines": 67,
+                    "statements": 10
+                  },
+                  {
+                    "file": "index.ts",
+                    "lines": 15,
+                    "statements": 0
+                  },
+                  {
+                    "file": "inject.decorator.ts",
+                    "lines": 68,
+                    "statements": 16
+                  },
+                  {
+                    "file": "injectable.decorator.ts",
+                    "lines": 60,
+                    "statements": 10
+                  },
+                  {
+                    "file": "optional.decorator.ts",
+                    "lines": 39,
+                    "statements": 8
+                  },
+                  {
+                    "file": "set-metadata.decorator.ts",
+                    "lines": 37,
+                    "statements": 7
+                  },
+                  {
+                    "file": "use-guards.decorator.ts",
+                    "lines": 57,
+                    "statements": 8
+                  },
+                  {
+                    "file": "use-interceptors.decorator.ts",
+                    "lines": 69,
+                    "statements": 8
+                  },
+                  {
+                    "file": "use-pipes.decorator.ts",
+                    "lines": 50,
+                    "statements": 8
+                  },
+                  {
+                    "file": "version.decorator.ts",
+                    "lines": 24,
+                    "statements": 3
+                  }
+                ]
+              },
+              {
+                "directory": "packages/common/decorators/http/",
+                "totalLines": 1093,
+                "totalStatements": 123,
+                "files": [
+                  {
+                    "file": "create-route-param-metadata.decorator.ts",
+                    "lines": 65,
+                    "statements": 15
+                  },
+                  {
+                    "file": "header.decorator.ts",
+                    "lines": 31,
+                    "statements": 5
+                  },
+                  {
+                    "file": "http-code.decorator.ts",
+                    "lines": 23,
+                    "statements": 3
+                  },
+                  {
+                    "file": "index.ts",
+                    "lines": 9,
+                    "statements": 0
+                  },
+                  {
+                    "file": "redirect.decorator.ts",
+                    "lines": 22,
+                    "statements": 3
+                  },
+                  {
+                    "file": "render.decorator.ts",
+                    "lines": 24,
+                    "statements": 3
+                  },
+                  {
+                    "file": "request-mapping.decorator.ts",
+                    "lines": 121,
+                    "statements": 21
+                  },
+                  {
+                    "file": "route-params.decorator.ts",
+                    "lines": 771,
+                    "statements": 70
+                  },
+                  {
+                    "file": "sse.decorator.ts",
+                    "lines": 27,
+                    "statements": 3
+                  }
+                ]
+              },
+              {
+                "file": "index.ts",
+                "lines": 4,
+                "statements": 0
+              },
+              {
+                "directory": "packages/common/decorators/modules/",
+                "totalLines": 52,
+                "totalStatements": 9,
+                "files": [
+                  {
+                    "file": "global.decorator.ts",
+                    "lines": 19,
+                    "statements": 3
+                  },
+                  {
+                    "file": "index.ts",
+                    "lines": 3,
+                    "statements": 0
+                  },
+                  {
+                    "file": "module.decorator.ts",
+                    "lines": 30,
+                    "statements": 6
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "directory": "packages/common/enums/",
+            "totalLines": 114,
+            "totalStatements": 0,
+            "files": [
+              {
+                "file": "http-status.enum.ts",
+                "lines": 54,
+                "statements": 0
+              },
+              {
+                "file": "index.ts",
+                "lines": 5,
+                "statements": 0
+              },
+              {
+                "file": "request-method.enum.ts",
+                "lines": 12,
+                "statements": 0
+              },
+              {
+                "file": "route-paramtypes.enum.ts",
+                "lines": 16,
+                "statements": 0
+              },
+              {
+                "file": "shutdown-signal.enum.ts",
+                "lines": 17,
+                "statements": 0
+              },
+              {
+                "file": "version-type.enum.ts",
+                "lines": 10,
+                "statements": 0
+              }
+            ]
+          },
+          {
+            "directory": "packages/common/exceptions/",
+            "totalLines": 1348,
+            "totalStatements": 73,
+            "files": [
+              {
+                "file": "bad-gateway.exception.ts",
+                "lines": 54,
+                "statements": 3
+              },
+              {
+                "file": "bad-request.exception.ts",
+                "lines": 54,
+                "statements": 3
+              },
+              {
+                "file": "conflict.exception.ts",
+                "lines": 50,
+                "statements": 3
+              },
+              {
+                "file": "forbidden.exception.ts",
+                "lines": 54,
+                "statements": 3
+              },
+              {
+                "file": "gateway-timeout.exception.ts",
+                "lines": 54,
+                "statements": 3
+              },
+              {
+                "file": "gone.exception.ts",
+                "lines": 50,
+                "statements": 3
+              },
+              {
+                "file": "http-version-not-supported.exception.ts",
+                "lines": 56,
+                "statements": 3
+              },
+              {
+                "file": "http.exception.ts",
+                "lines": 188,
+                "statements": 10
+              },
+              {
+                "file": "im-a-teapot.exception.ts",
+                "lines": 57,
+                "statements": 3
+              },
+              {
+                "file": "index.ts",
+                "lines": 23,
+                "statements": 0
+              },
+              {
+                "file": "internal-server-error.exception.ts",
+                "lines": 56,
+                "statements": 3
+              },
+              {
+                "file": "method-not-allowed.exception.ts",
+                "lines": 54,
+                "statements": 3
+              },
+              {
+                "file": "misdirected.exception.ts",
+                "lines": 54,
+                "statements": 3
+              },
+              {
+                "file": "not-acceptable.exception.ts",
+                "lines": 54,
+                "statements": 3
+              },
+              {
+                "file": "not-found.exception.ts",
+                "lines": 54,
+                "statements": 3
+              },
+              {
+                "file": "not-implemented.exception.ts",
+                "lines": 54,
+                "statements": 3
+              },
+              {
+                "file": "payload-too-large.exception.ts",
+                "lines": 54,
+                "statements": 3
+              },
+              {
+                "file": "precondition-failed.exception.ts",
+                "lines": 54,
+                "statements": 3
+              },
+              {
+                "file": "request-timeout.exception.ts",
+                "lines": 54,
+                "statements": 3
+              },
+              {
+                "file": "service-unavailable.exception.ts",
+                "lines": 54,
+                "statements": 3
+              },
+              {
+                "file": "unauthorized.exception.ts",
+                "lines": 54,
+                "statements": 3
+              },
+              {
+                "file": "unprocessable-entity.exception.ts",
+                "lines": 56,
+                "statements": 3
+              },
+              {
+                "file": "unsupported-media-type.exception.ts",
+                "lines": 56,
+                "statements": 3
+              }
+            ]
+          },
+          {
+            "directory": "packages/common/file-stream/",
+            "totalLines": 134,
+            "totalStatements": 14,
+            "files": [
+              {
+                "file": "index.ts",
+                "lines": 2,
+                "statements": 0
+              },
+              {
+                "directory": "packages/common/file-stream/interfaces/",
+                "totalLines": 39,
+                "totalStatements": 2,
+                "files": [
+                  {
+                    "file": "index.ts",
+                    "lines": 3,
+                    "statements": 0
+                  },
+                  {
+                    "file": "streamable-handler-response.interface.ts",
+                    "lines": 13,
+                    "statements": 2
+                  },
+                  {
+                    "file": "streamable-options.interface.ts",
+                    "lines": 23,
+                    "statements": 0
+                  }
+                ]
+              },
+              {
+                "file": "streamable-file.ts",
+                "lines": 93,
+                "statements": 12
+              }
+            ]
+          },
+          {
+            "file": "index.ts",
+            "lines": 71,
+            "statements": 0
+          },
+          {
+            "directory": "packages/common/interfaces/",
+            "totalLines": 1986,
+            "totalStatements": 80,
+            "files": [
+              {
+                "file": "abstract.interface.ts",
+                "lines": 4,
+                "statements": 0
+              },
+              {
+                "directory": "packages/common/interfaces/controllers/",
+                "totalLines": 9,
+                "totalStatements": 0,
+                "files": [
+                  {
+                    "file": "controller-metadata.interface.ts",
+                    "lines": 4,
+                    "statements": 0
+                  },
+                  {
+                    "file": "controller.interface.ts",
+                    "lines": 2,
+                    "statements": 0
+                  },
+                  {
+                    "file": "index.ts",
+                    "lines": 3,
+                    "statements": 0
+                  }
+                ]
+              },
+              {
+                "directory": "packages/common/interfaces/exceptions/",
+                "totalLines": 84,
+                "totalStatements": 3,
+                "files": [
+                  {
+                    "file": "exception-filter-metadata.interface.ts",
+                    "lines": 8,
+                    "statements": 0
+                  },
+                  {
+                    "file": "exception-filter.interface.ts",
+                    "lines": 20,
+                    "statements": 1
+                  },
+                  {
+                    "file": "index.ts",
+                    "lines": 6,
+                    "statements": 0
+                  },
+                  {
+                    "file": "rpc-exception-filter-metadata.interface.ts",
+                    "lines": 8,
+                    "statements": 0
+                  },
+                  {
+                    "file": "rpc-exception-filter.interface.ts",
+                    "lines": 21,
+                    "statements": 1
+                  },
+                  {
+                    "file": "ws-exception-filter.interface.ts",
+                    "lines": 21,
+                    "statements": 1
+                  }
+                ]
+              },
+              {
+                "directory": "packages/common/interfaces/external/",
+                "totalLines": 381,
+                "totalStatements": 27,
+                "files": [
+                  {
+                    "file": "class-transform-options.interface.ts",
+                    "lines": 66,
+                    "statements": 11
+                  },
+                  {
+                    "file": "cors-options.interface.ts",
+                    "lines": 64,
+                    "statements": 4
+                  },
+                  {
+                    "file": "https-options.interface.ts",
+                    "lines": 106,
+                    "statements": 4
+                  },
+                  {
+                    "file": "transformer-package.interface.ts",
+                    "lines": 15,
+                    "statements": 2
+                  },
+                  {
+                    "file": "validation-error.interface.ts",
+                    "lines": 43,
+                    "statements": 3
+                  },
+                  {
+                    "file": "validator-options.interface.ts",
+                    "lines": 77,
+                    "statements": 3
+                  },
+                  {
+                    "file": "validator-package.interface.ts",
+                    "lines": 10,
+                    "statements": 0
+                  }
+                ]
+              },
+              {
+                "directory": "packages/common/interfaces/features/",
+                "totalLines": 242,
+                "totalStatements": 5,
+                "files": [
+                  {
+                    "file": "arguments-host.interface.ts",
+                    "lines": 94,
+                    "statements": 0
+                  },
+                  {
+                    "file": "can-activate.interface.ts",
+                    "lines": 26,
+                    "statements": 1
+                  },
+                  {
+                    "file": "custom-route-param-factory.interface.ts",
+                    "lines": 8,
+                    "statements": 1
+                  },
+                  {
+                    "file": "execution-context.interface.ts",
+                    "lines": 22,
+                    "statements": 1
+                  },
+                  {
+                    "file": "nest-interceptor.interface.ts",
+                    "lines": 41,
+                    "statements": 1
+                  },
+                  {
+                    "file": "paramtype.interface.ts",
+                    "lines": 5,
+                    "statements": 0
+                  },
+                  {
+                    "file": "pipe-transform.interface.ts",
+                    "lines": 46,
+                    "statements": 1
+                  }
+                ]
+              },
+              {
+                "file": "global-prefix-options.interface.ts",
+                "lines": 9,
+                "statements": 0
+              },
+              {
+                "directory": "packages/common/interfaces/hooks/",
+                "totalLines": 58,
+                "totalStatements": 0,
+                "files": [
+                  {
+                    "file": "before-application-shutdown.interface.ts",
+                    "lines": 4,
+                    "statements": 0
+                  },
+                  {
+                    "file": "index.ts",
+                    "lines": 6,
+                    "statements": 0
+                  },
+                  {
+                    "file": "on-application-bootstrap.interface.ts",
+                    "lines": 12,
+                    "statements": 0
+                  },
+                  {
+                    "file": "on-application-shutdown.interface.ts",
+                    "lines": 12,
+                    "statements": 0
+                  },
+                  {
+                    "file": "on-destroy.interface.ts",
+                    "lines": 13,
+                    "statements": 0
+                  },
+                  {
+                    "file": "on-init.interface.ts",
+                    "lines": 11,
+                    "statements": 0
+                  }
+                ]
+              },
+              {
+                "directory": "packages/common/interfaces/http/",
+                "totalLines": 125,
+                "totalStatements": 10,
+                "files": [
+                  {
+                    "file": "http-exception-body.interface.ts",
+                    "lines": 8,
+                    "statements": 0
+                  },
+                  {
+                    "file": "http-redirect-response.interface.ts",
+                    "lines": 7,
+                    "statements": 0
+                  },
+                  {
+                    "file": "http-server.interface.ts",
+                    "lines": 92,
+                    "statements": 10
+                  },
+                  {
+                    "file": "index.ts",
+                    "lines": 6,
+                    "statements": 0
+                  },
+                  {
+                    "file": "message-event.interface.ts",
+                    "lines": 7,
+                    "statements": 0
+                  },
+                  {
+                    "file": "raw-body-request.interface.ts",
+                    "lines": 5,
+                    "statements": 0
+                  }
+                ]
+              },
+              {
+                "file": "index.ts",
+                "lines": 30,
+                "statements": 0
+              },
+              {
+                "file": "injectable.interface.ts",
+                "lines": 2,
+                "statements": 0
+              },
+              {
+                "directory": "packages/common/interfaces/microservices/",
+                "totalLines": 14,
+                "totalStatements": 0,
+                "files": [
+                  {
+                    "file": "nest-hybrid-application-options.interface.ts",
+                    "lines": 7,
+                    "statements": 0
+                  },
+                  {
+                    "file": "nest-microservice-options.interface.ts",
+                    "lines": 7,
+                    "statements": 0
+                  }
+                ]
+              },
+              {
+                "directory": "packages/common/interfaces/middleware/",
+                "totalLines": 76,
+                "totalStatements": 6,
+                "files": [
+                  {
+                    "file": "index.ts",
+                    "lines": 5,
+                    "statements": 0
+                  },
+                  {
+                    "file": "middleware-config-proxy.interface.ts",
+                    "lines": 27,
+                    "statements": 1
+                  },
+                  {
+                    "file": "middleware-configuration.interface.ts",
+                    "lines": 15,
+                    "statements": 0
+                  },
+                  {
+                    "file": "middleware-consumer.interface.ts",
+                    "lines": 20,
+                    "statements": 4
+                  },
+                  {
+                    "file": "nest-middleware.interface.ts",
+                    "lines": 9,
+                    "statements": 1
+                  }
+                ]
+              },
+              {
+                "directory": "packages/common/interfaces/modules/",
+                "totalLines": 299,
+                "totalStatements": 16,
+                "files": [
+                  {
+                    "file": "dynamic-module.interface.ts",
+                    "lines": 28,
+                    "statements": 0
+                  },
+                  {
+                    "file": "forward-reference.interface.ts",
+                    "lines": 4,
+                    "statements": 0
+                  },
+                  {
+                    "file": "index.ts",
+                    "lines": 9,
+                    "statements": 0
+                  },
+                  {
+                    "file": "injection-token.interface.ts",
+                    "lines": 13,
+                    "statements": 0
+                  },
+                  {
+                    "file": "introspection-result.interface.ts",
+                    "lines": 12,
+                    "statements": 1
+                  },
+                  {
+                    "file": "module-metadata.interface.ts",
+                    "lines": 47,
+                    "statements": 0
+                  },
+                  {
+                    "file": "nest-module.interface.ts",
+                    "lines": 9,
+                    "statements": 0
+                  },
+                  {
+                    "file": "optional-factory-dependency.interface.ts",
+                    "lines": 10,
+                    "statements": 0
+                  },
+                  {
+                    "file": "provider.interface.ts",
+                    "lines": 167,
+                    "statements": 15
+                  }
+                ]
+              },
+              {
+                "file": "nest-application-context-options.interface.ts",
+                "lines": 48,
+                "statements": 2
+              },
+              {
+                "file": "nest-application-context.interface.ts",
+                "lines": 153,
+                "statements": 1
+              },
+              {
+                "file": "nest-application-options.interface.ts",
+                "lines": 34,
+                "statements": 0
+              },
+              {
+                "file": "nest-application.interface.ts",
+                "lines": 170,
+                "statements": 3
+              },
+              {
+                "file": "nest-microservice.interface.ts",
+                "lines": 65,
+                "statements": 0
+              },
+              {
+                "file": "scope-options.interface.ts",
+                "lines": 39,
+                "statements": 2
+              },
+              {
+                "file": "type.interface.ts",
+                "lines": 4,
+                "statements": 0
+              },
+              {
+                "file": "version-options.interface.ts",
+                "lines": 111,
+                "statements": 3
+              },
+              {
+                "directory": "packages/common/interfaces/websockets/",
+                "totalLines": 29,
+                "totalStatements": 2,
+                "files": [
+                  {
+                    "file": "web-socket-adapter.interface.ts",
+                    "lines": 29,
+                    "statements": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "directory": "packages/common/module-utils/",
+            "totalLines": 604,
+            "totalStatements": 73,
+            "files": [
+              {
+                "file": "configurable-module.builder.ts",
+                "lines": 347,
+                "statements": 36
+              },
+              {
+                "file": "constants.ts",
+                "lines": 6,
+                "statements": 4
+              },
+              {
+                "file": "index.ts",
+                "lines": 3,
+                "statements": 0
+              },
+              {
+                "directory": "packages/common/module-utils/interfaces/",
+                "totalLines": 185,
+                "totalStatements": 20,
+                "files": [
+                  {
+                    "file": "configurable-module-async-options.interface.ts",
+                    "lines": 64,
+                    "statements": 8
+                  },
+                  {
+                    "file": "configurable-module-cls.interface.ts",
+                    "lines": 39,
+                    "statements": 5
+                  },
+                  {
+                    "file": "configurable-module-host.interface.ts",
+                    "lines": 78,
+                    "statements": 7
+                  },
+                  {
+                    "file": "index.ts",
+                    "lines": 4,
+                    "statements": 0
+                  }
+                ]
+              },
+              {
+                "directory": "packages/common/module-utils/utils/",
+                "totalLines": 63,
+                "totalStatements": 13,
+                "files": [
+                  {
+                    "file": "generate-options-injection-token.util.ts",
+                    "lines": 7,
+                    "statements": 2
+                  },
+                  {
+                    "file": "get-injection-providers.util.ts",
+                    "lines": 53,
+                    "statements": 11
+                  },
+                  {
+                    "file": "index.ts",
+                    "lines": 3,
+                    "statements": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "file": "package.json",
+            "lines": 40,
+            "statements": 4
+          },
+          {
+            "directory": "packages/common/pipes/",
+            "totalLines": 1186,
+            "totalStatements": 138,
+            "files": [
+              {
+                "file": "default-value.pipe.ts",
+                "lines": 31,
+                "statements": 2
+              },
+              {
+                "directory": "packages/common/pipes/file/",
+                "totalLines": 275,
+                "totalStatements": 23,
+                "files": [
+                  {
+                    "file": "file-type.validator.ts",
+                    "lines": 39,
+                    "statements": 1
+                  },
+                  {
+                    "file": "file-validator.interface.ts",
+                    "lines": 29,
+                    "statements": 3
+                  },
+                  {
+                    "file": "index.ts",
+                    "lines": 7,
+                    "statements": 0
+                  },
+                  {
+                    "directory": "packages/common/pipes/file/interfaces/",
+                    "totalLines": 7,
+                    "totalStatements": 0,
+                    "files": [
+                      {
+                        "file": "file.interface.ts",
+                        "lines": 5,
+                        "statements": 0
+                      },
+                      {
+                        "file": "index.ts",
+                        "lines": 2,
+                        "statements": 0
+                      }
+                    ]
+                  },
+                  {
+                    "file": "max-file-size.validator.ts",
+                    "lines": 40,
+                    "statements": 3
+                  },
+                  {
+                    "file": "parse-file-options.interface.ts",
+                    "lines": 18,
+                    "statements": 1
+                  },
+                  {
+                    "file": "parse-file-pipe.builder.ts",
+                    "lines": 44,
+                    "statements": 2
+                  },
+                  {
+                    "file": "parse-file.pipe.ts",
+                    "lines": 91,
+                    "statements": 13
+                  }
+                ]
+              },
+              {
+                "file": "index.ts",
+                "lines": 10,
+                "statements": 0
+              },
+              {
+                "file": "parse-array.pipe.ts",
+                "lines": 168,
+                "statements": 19
+              },
+              {
+                "file": "parse-bool.pipe.ts",
+                "lines": 88,
+                "statements": 6
+              },
+              {
+                "file": "parse-enum.pipe.ts",
+                "lines": 73,
+                "statements": 8
+              },
+              {
+                "file": "parse-float.pipe.ts",
+                "lines": 71,
+                "statements": 6
+              },
+              {
+                "file": "parse-int.pipe.ts",
+                "lines": 75,
+                "statements": 6
+              },
+              {
+                "file": "parse-uuid.pipe.ts",
+                "lines": 79,
+                "statements": 7
+              },
+              {
+                "file": "validation.pipe.ts",
+                "lines": 316,
+                "statements": 61
+              }
+            ]
+          },
+          {
+            "directory": "packages/common/serializer/",
+            "totalLines": 138,
+            "totalStatements": 36,
+            "files": [
+              {
+                "file": "class-serializer.constants.ts",
+                "lines": 2,
+                "statements": 2
+              },
+              {
+                "file": "class-serializer.interceptor.ts",
+                "lines": 110,
+                "statements": 26
+              },
+              {
+                "file": "class-serializer.interfaces.ts",
+                "lines": 10,
+                "statements": 1
+              },
+              {
+                "directory": "packages/common/serializer/decorators/",
+                "totalLines": 12,
+                "totalStatements": 5,
+                "files": [
+                  {
+                    "file": "index.ts",
+                    "lines": 2,
+                    "statements": 0
+                  },
+                  {
+                    "file": "serialize-options.decorator.ts",
+                    "lines": 10,
+                    "statements": 5
+                  }
+                ]
+              },
+              {
+                "file": "index.ts",
+                "lines": 4,
+                "statements": 2
+              }
+            ]
+          },
+          {
+            "directory": "packages/common/services/",
+            "totalLines": 741,
+            "totalStatements": 60,
+            "files": [
+              {
+                "file": "console-logger.service.ts",
+                "lines": 366,
+                "statements": 38
+              },
+              {
+                "file": "index.ts",
+                "lines": 3,
+                "statements": 0
+              },
+              {
+                "file": "logger.service.ts",
+                "lines": 336,
+                "statements": 16
+              },
+              {
+                "directory": "packages/common/services/utils/",
+                "totalLines": 36,
+                "totalStatements": 6,
+                "files": [
+                  {
+                    "file": "index.ts",
+                    "lines": 2,
+                    "statements": 0
+                  },
+                  {
+                    "file": "is-log-level-enabled.util.ts",
+                    "lines": 34,
+                    "statements": 6
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "directory": "packages/common/test/",
+            "totalLines": 4856,
+            "totalStatements": 1276,
+            "files": [
+              {
+                "directory": "packages/common/test/decorators/",
+                "totalLines": 1450,
+                "totalStatements": 483,
+                "files": [
+                  {
+                    "file": "apply-decorators.spec.ts",
+                    "lines": 121,
+                    "statements": 38
+                  },
+                  {
+                    "file": "bind.decorator.spec.ts",
+                    "lines": 28,
+                    "statements": 5
+                  },
+                  {
+                    "file": "catch.decorator.spec.ts",
+                    "lines": 22,
+                    "statements": 9
+                  },
+                  {
+                    "file": "controller.decorator.spec.ts",
+                    "lines": 111,
+                    "statements": 41
+                  },
+                  {
+                    "file": "create-param-decorator.spec.ts",
+                    "lines": 178,
+                    "statements": 64
+                  },
+                  {
+                    "file": "dependencies.decorator.spec.ts",
+                    "lines": 25,
+                    "statements": 11
+                  },
+                  {
+                    "file": "exception-filters.decorator.spec.ts",
+                    "lines": 42,
+                    "statements": 13
+                  },
+                  {
+                    "file": "global.decorator.spec.ts",
+                    "lines": 14,
+                    "statements": 5
+                  },
+                  {
+                    "file": "header.decorator.spec.ts",
+                    "lines": 20,
+                    "statements": 5
+                  },
+                  {
+                    "file": "http-code.decorator.spec.ts",
+                    "lines": 17,
+                    "statements": 6
+                  },
+                  {
+                    "file": "inject.decorator.spec.ts",
+                    "lines": 26,
+                    "statements": 11
+                  },
+                  {
+                    "file": "injectable.decorator.spec.ts",
+                    "lines": 62,
+                    "statements": 27
+                  },
+                  {
+                    "file": "module.decorator.spec.ts",
+                    "lines": 36,
+                    "statements": 11
+                  },
+                  {
+                    "file": "redirect.decorator.spec.ts",
+                    "lines": 25,
+                    "statements": 9
+                  },
+                  {
+                    "file": "render.decorator.spec.ts",
+                    "lines": 18,
+                    "statements": 6
+                  },
+                  {
+                    "file": "request-mapping.decorator.spec.ts",
+                    "lines": 63,
+                    "statements": 17
+                  },
+                  {
+                    "file": "route-params.decorator.spec.ts",
+                    "lines": 418,
+                    "statements": 134
+                  },
+                  {
+                    "file": "set-metadata.decorator.spec.ts",
+                    "lines": 26,
+                    "statements": 9
+                  },
+                  {
+                    "file": "sse.decorator.spec.ts",
+                    "lines": 24,
+                    "statements": 8
+                  },
+                  {
+                    "file": "use-guards.decorator.spec.ts",
+                    "lines": 48,
+                    "statements": 16
+                  },
+                  {
+                    "file": "use-interceptors.decorator.spec.ts",
+                    "lines": 56,
+                    "statements": 15
+                  },
+                  {
+                    "file": "use-pipes.decorator.spec.ts",
+                    "lines": 39,
+                    "statements": 13
+                  },
+                  {
+                    "file": "version.decorator.spec.ts",
+                    "lines": 31,
+                    "statements": 10
+                  }
+                ]
+              },
+              {
+                "directory": "packages/common/test/exceptions/",
+                "totalLines": 271,
+                "totalStatements": 57,
+                "files": [
+                  {
+                    "file": "http.exception.spec.ts",
+                    "lines": 271,
+                    "statements": 57
+                  }
+                ]
+              },
+              {
+                "directory": "packages/common/test/file-stream/",
+                "totalLines": 65,
+                "totalStatements": 31,
+                "files": [
+                  {
+                    "file": "streamable-file.spec.ts",
+                    "lines": 65,
+                    "statements": 31
+                  }
+                ]
+              },
+              {
+                "directory": "packages/common/test/module-utils/",
+                "totalLines": 212,
+                "totalStatements": 35,
+                "files": [
+                  {
+                    "file": "configurable-module.builder.spec.ts",
+                    "lines": 138,
+                    "statements": 25
+                  },
+                  {
+                    "directory": "packages/common/test/module-utils/utils/",
+                    "totalLines": 74,
+                    "totalStatements": 10,
+                    "files": [
+                      {
+                        "file": "get-injection-providers.util.spec.ts",
+                        "lines": 74,
+                        "statements": 10
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "directory": "packages/common/test/pipes/",
+                "totalLines": 1708,
+                "totalStatements": 382,
+                "files": [
+                  {
+                    "file": "default-value.pipe.spec.ts",
+                    "lines": 21,
+                    "statements": 9
+                  },
+                  {
+                    "directory": "packages/common/test/pipes/file/",
+                    "totalLines": 449,
+                    "totalStatements": 111,
+                    "files": [
+                      {
+                        "file": "file-type.validator.spec.ts",
+                        "lines": 98,
+                        "statements": 26
+                      },
+                      {
+                        "file": "max-file-size.validator.spec.ts",
+                        "lines": 65,
+                        "statements": 17
+                      },
+                      {
+                        "file": "parse-file-pipe.builder.spec.ts",
+                        "lines": 105,
+                        "statements": 26
+                      },
+                      {
+                        "file": "parse-file.pipe.spec.ts",
+                        "lines": 181,
+                        "statements": 42
+                      }
+                    ]
+                  },
+                  {
+                    "file": "parse-array.pipe.spec.ts",
+                    "lines": 343,
+                    "statements": 45
+                  },
+                  {
+                    "file": "parse-bool.pipe.spec.ts",
+                    "lines": 36,
+                    "statements": 11
+                  },
+                  {
+                    "file": "parse-enum.pipe.spec.ts",
+                    "lines": 67,
+                    "statements": 19
+                  },
+                  {
+                    "file": "parse-float.pipe.spec.ts",
+                    "lines": 43,
+                    "statements": 15
+                  },
+                  {
+                    "file": "parse-int.pipe.spec.ts",
+                    "lines": 53,
+                    "statements": 18
+                  },
+                  {
+                    "file": "parse-uuid.pipe.spec.ts",
+                    "lines": 107,
+                    "statements": 24
+                  },
+                  {
+                    "file": "validation.pipe.spec.ts",
+                    "lines": 589,
+                    "statements": 130
+                  }
+                ]
+              },
+              {
+                "directory": "packages/common/test/services/",
+                "totalLines": 811,
+                "totalStatements": 189,
+                "files": [
+                  {
+                    "file": "logger.service.spec.ts",
+                    "lines": 769,
+                    "statements": 181
+                  },
+                  {
+                    "directory": "packages/common/test/services/utils/",
+                    "totalLines": 42,
+                    "totalStatements": 8,
+                    "files": [
+                      {
+                        "file": "is-log-level-enabled.util.spec.ts",
+                        "lines": 42,
+                        "statements": 8
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "file": "tsconfig.json",
+                "lines": 4,
+                "statements": 0
+              },
+              {
+                "directory": "packages/common/test/utils/",
+                "totalLines": 335,
+                "totalStatements": 99,
+                "files": [
+                  {
+                    "file": "forward-ref.util.spec.ts",
+                    "lines": 11,
+                    "statements": 6
+                  },
+                  {
+                    "file": "load-package.util.spec.ts",
+                    "lines": 14,
+                    "statements": 4
+                  },
+                  {
+                    "file": "merge-with-values.util.spec.ts",
+                    "lines": 19,
+                    "statements": 7
+                  },
+                  {
+                    "file": "random-string-generator.util.spec.ts",
+                    "lines": 9,
+                    "statements": 2
+                  },
+                  {
+                    "file": "select-exception-filter-metadata.util.spec.ts",
+                    "lines": 86,
+                    "statements": 24
+                  },
+                  {
+                    "file": "shared.utils.spec.ts",
+                    "lines": 173,
+                    "statements": 49
+                  },
+                  {
+                    "file": "validate-each.util.spec.ts",
+                    "lines": 23,
+                    "statements": 7
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "file": "tsconfig.build.json",
+            "lines": 11,
+            "statements": 0
+          },
+          {
+            "file": "tsconfig.json",
+            "lines": 14,
+            "statements": 0
+          },
+          {
+            "directory": "packages/common/utils/",
+            "totalLines": 299,
+            "totalStatements": 88,
+            "files": [
+              {
+                "file": "assign-custom-metadata.util.ts",
+                "lines": 27,
+                "statements": 2
+              },
+              {
+                "file": "cli-colors.util.ts",
+                "lines": 18,
+                "statements": 15
+              },
+              {
+                "file": "extend-metadata.util.ts",
+                "lines": 10,
+                "statements": 3
+              },
+              {
+                "file": "forward-ref.util.ts",
+                "lines": 9,
+                "statements": 3
+              },
+              {
+                "file": "http-error-by-code.util.ts",
+                "lines": 67,
+                "statements": 1
+              },
+              {
+                "file": "index.ts",
+                "lines": 2,
+                "statements": 0
+              },
+              {
+                "file": "load-package.util.ts",
+                "lines": 21,
+                "statements": 4
+              },
+              {
+                "file": "merge-with-values.util.ts",
+                "lines": 18,
+                "statements": 8
+              },
+              {
+                "file": "random-string-generator.util.ts",
+                "lines": 4,
+                "statements": 2
+              },
+              {
+                "file": "select-exception-filter-metadata.util.ts",
+                "lines": 14,
+                "statements": 4
+              },
+              {
+                "file": "shared.utils.ts",
+                "lines": 53,
+                "statements": 33
+              },
+              {
+                "file": "validate-each.util.ts",
+                "lines": 32,
+                "statements": 6
+              },
+              {
+                "file": "validate-module-keys.util.ts",
+                "lines": 24,
+                "statements": 7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "directory": "packages/core/",
+        "totalLines": 26396,
+        "totalStatements": 5160,
+        "files": [
+          {
+            "directory": "packages/core/adapters/",
+            "totalLines": 144,
+            "totalStatements": 13,
+            "files": [
+              {
+                "file": "http-adapter.ts",
+                "lines": 142,
+                "statements": 13
+              },
+              {
+                "file": "index.ts",
+                "lines": 2,
+                "statements": 0
+              }
+            ]
+          },
+          {
+            "file": "application-config.ts",
+            "lines": 151,
+            "statements": 2
+          },
+          {
+            "file": "constants.ts",
+            "lines": 29,
+            "statements": 8
+          },
+          {
+            "directory": "packages/core/discovery/",
+            "totalLines": 338,
+            "totalStatements": 41,
+            "files": [
+              {
+                "file": "discoverable-meta-host-collection.ts",
+                "lines": 154,
+                "statements": 14
+              },
+              {
+                "file": "discovery-module.ts",
+                "lines": 13,
+                "statements": 1
+              },
+              {
+                "file": "discovery-service.ts",
+                "lines": 168,
+                "statements": 26
+              },
+              {
+                "file": "index.ts",
+                "lines": 3,
+                "statements": 0
+              }
+            ]
+          },
+          {
+            "directory": "packages/core/errors/",
+            "totalLines": 461,
+            "totalStatements": 100,
+            "files": [
+              {
+                "file": "exception-handler.ts",
+                "lines": 15,
+                "statements": 1
+              },
+              {
+                "directory": "packages/core/errors/exceptions/",
+                "totalLines": 201,
+                "totalStatements": 39,
+                "files": [
+                  {
+                    "file": "circular-dependency.exception.ts",
+                    "lines": 11,
+                    "statements": 4
+                  },
+                  {
+                    "file": "index.ts",
+                    "lines": 9,
+                    "statements": 2
+                  },
+                  {
+                    "file": "invalid-class-module.exception.ts",
+                    "lines": 11,
+                    "statements": 2
+                  },
+                  {
+                    "file": "invalid-class-scope.exception.ts",
+                    "lines": 16,
+                    "statements": 3
+                  },
+                  {
+                    "file": "invalid-class.exception.ts",
+                    "lines": 9,
+                    "statements": 2
+                  },
+                  {
+                    "file": "invalid-exception-filter.exception.ts",
+                    "lines": 9,
+                    "statements": 2
+                  },
+                  {
+                    "file": "invalid-middleware-configuration.exception.ts",
+                    "lines": 9,
+                    "statements": 2
+                  },
+                  {
+                    "file": "invalid-middleware.exception.ts",
+                    "lines": 9,
+                    "statements": 2
+                  },
+                  {
+                    "file": "invalid-module.exception.ts",
+                    "lines": 9,
+                    "statements": 2
+                  },
+                  {
+                    "file": "runtime.exception.ts",
+                    "lines": 10,
+                    "statements": 2
+                  },
+                  {
+                    "file": "undefined-dependency.exception.ts",
+                    "lines": 17,
+                    "statements": 2
+                  },
+                  {
+                    "file": "undefined-forwardref.exception.ts",
+                    "lines": 10,
+                    "statements": 2
+                  },
+                  {
+                    "file": "undefined-module.exception.ts",
+                    "lines": 9,
+                    "statements": 2
+                  },
+                  {
+                    "file": "unknown-dependencies.exception.ts",
+                    "lines": 19,
+                    "statements": 2
+                  },
+                  {
+                    "file": "unknown-element.exception.ts",
+                    "lines": 13,
+                    "statements": 2
+                  },
+                  {
+                    "file": "unknown-export.exception.ts",
+                    "lines": 9,
+                    "statements": 2
+                  },
+                  {
+                    "file": "unknown-module.exception.ts",
+                    "lines": 12,
+                    "statements": 2
+                  },
+                  {
+                    "file": "unknown-request-mapping.exception.ts",
+                    "lines": 10,
+                    "statements": 2
+                  }
+                ]
+              },
+              {
+                "file": "exceptions-zone.ts",
+                "lines": 41,
+                "statements": 7
+              },
+              {
+                "file": "messages.ts",
+                "lines": 204,
+                "statements": 53
+              }
+            ]
+          },
+          {
+            "directory": "packages/core/exceptions/",
+            "totalLines": 332,
+            "totalStatements": 42,
+            "files": [
+              {
+                "file": "base-exception-filter-context.ts",
+                "lines": 80,
+                "statements": 15
+              },
+              {
+                "file": "base-exception-filter.ts",
+                "lines": 92,
+                "statements": 9
+              },
+              {
+                "file": "exceptions-handler.ts",
+                "lines": 39,
+                "statements": 2
+              },
+              {
+                "file": "external-exception-filter-context.ts",
+                "lines": 68,
+                "statements": 12
+              },
+              {
+                "file": "external-exception-filter.ts",
+                "lines": 13,
+                "statements": 1
+              },
+              {
+                "file": "external-exceptions-handler.ts",
+                "lines": 38,
+                "statements": 3
+              },
+              {
+                "file": "index.ts",
+                "lines": 2,
+                "statements": 0
+              }
+            ]
+          },
+          {
+            "directory": "packages/core/guards/",
+            "totalLines": 178,
+            "totalStatements": 29,
+            "files": [
+              {
+                "file": "constants.ts",
+                "lines": 2,
+                "statements": 1
+              },
+              {
+                "file": "guards-consumer.ts",
+                "lines": 52,
+                "statements": 7
+              },
+              {
+                "file": "guards-context-creator.ts",
+                "lines": 120,
+                "statements": 20
+              },
+              {
+                "file": "index.ts",
+                "lines": 4,
+                "statements": 1
+              }
+            ]
+          },
+          {
+            "directory": "packages/core/helpers/",
+            "totalLines": 1009,
+            "totalStatements": 172,
+            "files": [
+              {
+                "file": "context-creator.ts",
+                "lines": 67,
+                "statements": 11
+              },
+              {
+                "file": "context-id-factory.ts",
+                "lines": 101,
+                "statements": 11
+              },
+              {
+                "file": "context-utils.ts",
+                "lines": 100,
+                "statements": 19
+              },
+              {
+                "file": "execution-context-host.ts",
+                "lines": 66,
+                "statements": 12
+              },
+              {
+                "file": "external-context-creator.ts",
+                "lines": 363,
+                "statements": 63
+              },
+              {
+                "file": "external-proxy.ts",
+                "lines": 22,
+                "statements": 4
+              },
+              {
+                "file": "get-class-scope.ts",
+                "lines": 9,
+                "statements": 3
+              },
+              {
+                "file": "handler-metadata-storage.ts",
+                "lines": 65,
+                "statements": 11
+              },
+              {
+                "file": "http-adapter-host.ts",
+                "lines": 69,
+                "statements": 3
+              },
+              {
+                "file": "index.ts",
+                "lines": 4,
+                "statements": 0
+              },
+              {
+                "directory": "packages/core/helpers/interfaces/",
+                "totalLines": 25,
+                "totalStatements": 1,
+                "files": [
+                  {
+                    "file": "external-handler-metadata.interface.ts",
+                    "lines": 14,
+                    "statements": 1
+                  },
+                  {
+                    "file": "index.ts",
+                    "lines": 3,
+                    "statements": 0
+                  },
+                  {
+                    "file": "params-metadata.interface.ts",
+                    "lines": 8,
+                    "statements": 0
+                  }
+                ]
+              },
+              {
+                "file": "is-durable.ts",
+                "lines": 8,
+                "statements": 3
+              },
+              {
+                "file": "load-adapter.ts",
+                "lines": 23,
+                "statements": 4
+              },
+              {
+                "file": "messages.ts",
+                "lines": 49,
+                "statements": 18
+              },
+              {
+                "file": "optional-require.ts",
+                "lines": 8,
+                "statements": 1
+              },
+              {
+                "file": "rethrow.ts",
+                "lines": 4,
+                "statements": 2
+              },
+              {
+                "file": "router-method-factory.ts",
+                "lines": 26,
+                "statements": 6
+              }
+            ]
+          },
+          {
+            "directory": "packages/core/hooks/",
+            "totalLines": 367,
+            "totalStatements": 73,
+            "files": [
+              {
+                "file": "before-app-shutdown.hook.ts",
+                "lines": 78,
+                "statements": 13
+              },
+              {
+                "file": "index.ts",
+                "lines": 6,
+                "statements": 0
+              },
+              {
+                "file": "on-app-bootstrap.hook.ts",
+                "lines": 72,
+                "statements": 15
+              },
+              {
+                "file": "on-app-shutdown.hook.ts",
+                "lines": 77,
+                "statements": 15
+              },
+              {
+                "file": "on-module-destroy.hook.ts",
+                "lines": 69,
+                "statements": 15
+              },
+              {
+                "file": "on-module-init.hook.ts",
+                "lines": 65,
+                "statements": 15
+              }
+            ]
+          },
+          {
+            "file": "index.ts",
+            "lines": 25,
+            "statements": 1
+          },
+          {
+            "directory": "packages/core/injector/",
+            "totalLines": 3535,
+            "totalStatements": 371,
+            "files": [
+              {
+                "file": "abstract-instance-resolver.ts",
+                "lines": 87,
+                "statements": 12
+              },
+              {
+                "file": "compiler.ts",
+                "lines": 48,
+                "statements": 5
+              },
+              {
+                "file": "constants.ts",
+                "lines": 9,
+                "statements": 3
+              },
+              {
+                "file": "container.ts",
+                "lines": 340,
+                "statements": 29
+              },
+              {
+                "directory": "packages/core/injector/helpers/",
+                "totalLines": 77,
+                "totalStatements": 16,
+                "files": [
+                  {
+                    "file": "provider-classifier.ts",
+                    "lines": 27,
+                    "statements": 4
+                  },
+                  {
+                    "file": "silent-logger.ts",
+                    "lines": 14,
+                    "statements": 4
+                  },
+                  {
+                    "file": "transient-instances.ts",
+                    "lines": 36,
+                    "statements": 8
+                  }
+                ]
+              },
+              {
+                "file": "index.ts",
+                "lines": 7,
+                "statements": 0
+              },
+              {
+                "file": "injector.ts",
+                "lines": 987,
+                "statements": 117
+              },
+              {
+                "directory": "packages/core/injector/inquirer/",
+                "totalLines": 15,
+                "totalStatements": 7,
+                "files": [
+                  {
+                    "file": "index.ts",
+                    "lines": 2,
+                    "statements": 1
+                  },
+                  {
+                    "file": "inquirer-constants.ts",
+                    "lines": 2,
+                    "statements": 1
+                  },
+                  {
+                    "file": "inquirer-providers.ts",
+                    "lines": 11,
+                    "statements": 5
+                  }
+                ]
+              },
+              {
+                "file": "instance-links-host.ts",
+                "lines": 95,
+                "statements": 13
+              },
+              {
+                "file": "instance-loader.ts",
+                "lines": 120,
+                "statements": 20
+              },
+              {
+                "file": "instance-wrapper.ts",
+                "lines": 496,
+                "statements": 41
+              },
+              {
+                "directory": "packages/core/injector/internal-core-module/",
+                "totalLines": 116,
+                "totalStatements": 13,
+                "files": [
+                  {
+                    "file": "index.ts",
+                    "lines": 2,
+                    "statements": 0
+                  },
+                  {
+                    "file": "internal-core-module-factory.ts",
+                    "lines": 72,
+                    "statements": 10
+                  },
+                  {
+                    "file": "internal-core-module.ts",
+                    "lines": 42,
+                    "statements": 3
+                  }
+                ]
+              },
+              {
+                "file": "internal-providers-storage.ts",
+                "lines": 20,
+                "statements": 1
+              },
+              {
+                "directory": "packages/core/injector/lazy-module-loader/",
+                "totalLines": 82,
+                "totalStatements": 11,
+                "files": [
+                  {
+                    "file": "lazy-module-loader-options.interface.ts",
+                    "lines": 7,
+                    "statements": 0
+                  },
+                  {
+                    "file": "lazy-module-loader.ts",
+                    "lines": 75,
+                    "statements": 11
+                  }
+                ]
+              },
+              {
+                "file": "module-ref.ts",
+                "lines": 193,
+                "statements": 11
+              },
+              {
+                "file": "module-token-factory.ts",
+                "lines": 98,
+                "statements": 17
+              },
+              {
+                "file": "module.ts",
+                "lines": 670,
+                "statements": 41
+              },
+              {
+                "file": "modules-container.ts",
+                "lines": 15,
+                "statements": 2
+              },
+              {
+                "file": "settlement-signal.ts",
+                "lines": 60,
+                "statements": 12
+              }
+            ]
+          },
+          {
+            "directory": "packages/core/inspector/",
+            "totalLines": 662,
+            "totalStatements": 64,
+            "files": [
+              {
+                "file": "deterministic-uuid-registry.ts",
+                "lines": 24,
+                "statements": 4
+              },
+              {
+                "file": "graph-inspector.ts",
+                "lines": 241,
+                "statements": 29
+              },
+              {
+                "file": "index.ts",
+                "lines": 5,
+                "statements": 0
+              },
+              {
+                "file": "initialize-on-preview.allowlist.ts",
+                "lines": 14,
+                "statements": 1
+              },
+              {
+                "directory": "packages/core/inspector/interfaces/",
+                "totalLines": 169,
+                "totalStatements": 9,
+                "files": [
+                  {
+                    "file": "edge.interface.ts",
+                    "lines": 32,
+                    "statements": 3
+                  },
+                  {
+                    "file": "enhancer-metadata-cache-entry.interface.ts",
+                    "lines": 14,
+                    "statements": 2
+                  },
+                  {
+                    "file": "entrypoint.interface.ts",
+                    "lines": 25,
+                    "statements": 2
+                  },
+                  {
+                    "file": "extras.interface.ts",
+                    "lines": 22,
+                    "statements": 1
+                  },
+                  {
+                    "file": "node.interface.ts",
+                    "lines": 48,
+                    "statements": 1
+                  },
+                  {
+                    "file": "serialized-graph-json.interface.ts",
+                    "lines": 16,
+                    "statements": 0
+                  },
+                  {
+                    "file": "serialized-graph-metadata.interface.ts",
+                    "lines": 12,
+                    "statements": 0
+                  }
+                ]
+              },
+              {
+                "file": "noop-graph-inspector.ts",
+                "lines": 11,
+                "statements": 5
+              },
+              {
+                "file": "partial-graph.host.ts",
+                "lines": 18,
+                "statements": 1
+              },
+              {
+                "file": "serialized-graph.ts",
+                "lines": 158,
+                "statements": 14
+              },
+              {
+                "file": "uuid-factory.ts",
+                "lines": 22,
+                "statements": 1
+              }
+            ]
+          },
+          {
+            "directory": "packages/core/interceptors/",
+            "totalLines": 189,
+            "totalStatements": 35,
+            "files": [
+              {
+                "file": "index.ts",
+                "lines": 3,
+                "statements": 0
+              },
+              {
+                "file": "interceptors-consumer.ts",
+                "lines": 62,
+                "statements": 16
+              },
+              {
+                "file": "interceptors-context-creator.ts",
+                "lines": 124,
+                "statements": 19
+              }
+            ]
+          },
+          {
+            "directory": "packages/core/interfaces/",
+            "totalLines": 16,
+            "totalStatements": 0,
+            "files": [
+              {
+                "file": "module-definition.interface.ts",
+                "lines": 9,
+                "statements": 0
+              },
+              {
+                "file": "module-override.interface.ts",
+                "lines": 7,
+                "statements": 0
+              }
+            ]
+          },
+          {
+            "file": "metadata-scanner.ts",
+            "lines": 119,
+            "statements": 11
+          },
+          {
+            "directory": "packages/core/middleware/",
+            "totalLines": 1024,
+            "totalStatements": 169,
+            "files": [
+              {
+                "file": "builder.ts",
+                "lines": 141,
+                "statements": 22
+              },
+              {
+                "file": "container.ts",
+                "lines": 71,
+                "statements": 11
+              },
+              {
+                "file": "index.ts",
+                "lines": 2,
+                "statements": 0
+              },
+              {
+                "file": "middleware-module.ts",
+                "lines": 357,
+                "statements": 59
+              },
+              {
+                "file": "resolver.ts",
+                "lines": 29,
+                "statements": 5
+              },
+              {
+                "file": "route-info-path-extractor.ts",
+                "lines": 117,
+                "statements": 11
+              },
+              {
+                "file": "routes-mapper.ts",
+                "lines": 182,
+                "statements": 33
+              },
+              {
+                "file": "utils.ts",
+                "lines": 125,
+                "statements": 28
+              }
+            ]
+          },
+          {
+            "file": "nest-application-context.ts",
+            "lines": 468,
+            "statements": 45
+          },
+          {
+            "file": "nest-application.ts",
+            "lines": 477,
+            "statements": 40
+          },
+          {
+            "file": "nest-factory.ts",
+            "lines": 379,
+            "statements": 48
+          },
+          {
+            "file": "package.json",
+            "lines": 61,
+            "statements": 0
+          },
+          {
+            "directory": "packages/core/pipes/",
+            "totalLines": 171,
+            "totalStatements": 25,
+            "files": [
+              {
+                "file": "index.ts",
+                "lines": 4,
+                "statements": 0
+              },
+              {
+                "file": "params-token-factory.ts",
+                "lines": 18,
+                "statements": 1
+              },
+              {
+                "file": "pipes-consumer.ts",
+                "lines": 31,
+                "statements": 5
+              },
+              {
+                "file": "pipes-context-creator.ts",
+                "lines": 118,
+                "statements": 19
+              }
+            ]
+          },
+          {
+            "directory": "packages/core/repl/",
+            "totalLines": 569,
+            "totalStatements": 92,
+            "files": [
+              {
+                "file": "assign-to-object.util.ts",
+                "lines": 15,
+                "statements": 2
+              },
+              {
+                "file": "constants.ts",
+                "lines": 2,
+                "statements": 1
+              },
+              {
+                "file": "index.ts",
+                "lines": 2,
+                "statements": 0
+              },
+              {
+                "directory": "packages/core/repl/native-functions/",
+                "totalLines": 195,
+                "totalStatements": 34,
+                "files": [
+                  {
+                    "file": "debug-repl-fn.ts",
+                    "lines": 63,
+                    "statements": 9
+                  },
+                  {
+                    "file": "get-relp-fn.ts",
+                    "lines": 18,
+                    "statements": 3
+                  },
+                  {
+                    "file": "help-repl-fn.ts",
+                    "lines": 33,
+                    "statements": 9
+                  },
+                  {
+                    "file": "index.ts",
+                    "lines": 7,
+                    "statements": 0
+                  },
+                  {
+                    "file": "methods-repl-fn.ts",
+                    "lines": 33,
+                    "statements": 7
+                  },
+                  {
+                    "file": "resolve-repl-fn.ts",
+                    "lines": 20,
+                    "statements": 3
+                  },
+                  {
+                    "file": "select-relp-fn.ts",
+                    "lines": 21,
+                    "statements": 3
+                  }
+                ]
+              },
+              {
+                "file": "repl-context.ts",
+                "lines": 187,
+                "statements": 28
+              },
+              {
+                "file": "repl-function.ts",
+                "lines": 37,
+                "statements": 6
+              },
+              {
+                "file": "repl-logger.ts",
+                "lines": 21,
+                "statements": 1
+              },
+              {
+                "file": "repl-native-commands.ts",
+                "lines": 51,
+                "statements": 7
+              },
+              {
+                "file": "repl.interfaces.ts",
+                "lines": 22,
+                "statements": 7
+              },
+              {
+                "file": "repl.ts",
+                "lines": 37,
+                "statements": 6
+              }
+            ]
+          },
+          {
+            "directory": "packages/core/router/",
+            "totalLines": 2133,
+            "totalStatements": 293,
+            "files": [
+              {
+                "file": "index.ts",
+                "lines": 4,
+                "statements": 0
+              },
+              {
+                "directory": "packages/core/router/interfaces/",
+                "totalLines": 105,
+                "totalStatements": 0,
+                "files": [
+                  {
+                    "file": "exceptions-filter.interface.ts",
+                    "lines": 14,
+                    "statements": 0
+                  },
+                  {
+                    "file": "exclude-route-metadata.interface.ts",
+                    "lines": 19,
+                    "statements": 0
+                  },
+                  {
+                    "file": "index.ts",
+                    "lines": 2,
+                    "statements": 0
+                  },
+                  {
+                    "file": "resolver.interface.ts",
+                    "lines": 6,
+                    "statements": 0
+                  },
+                  {
+                    "file": "route-params-factory.interface.ts",
+                    "lines": 14,
+                    "statements": 0
+                  },
+                  {
+                    "file": "route-path-metadata.interface.ts",
+                    "lines": 40,
+                    "statements": 0
+                  },
+                  {
+                    "file": "routes.interface.ts",
+                    "lines": 10,
+                    "statements": 0
+                  }
+                ]
+              },
+              {
+                "file": "paths-explorer.ts",
+                "lines": 85,
+                "statements": 13
+              },
+              {
+                "directory": "packages/core/router/request/",
+                "totalLines": 16,
+                "totalStatements": 8,
+                "files": [
+                  {
+                    "file": "index.ts",
+                    "lines": 2,
+                    "statements": 1
+                  },
+                  {
+                    "file": "request-constants.ts",
+                    "lines": 3,
+                    "statements": 2
+                  },
+                  {
+                    "file": "request-providers.ts",
+                    "lines": 11,
+                    "statements": 5
+                  }
+                ]
+              },
+              {
+                "file": "route-params-factory.ts",
+                "lines": 47,
+                "statements": 2
+              },
+              {
+                "file": "route-path-factory.ts",
+                "lines": 171,
+                "statements": 22
+              },
+              {
+                "file": "router-exception-filters.ts",
+                "lines": 66,
+                "statements": 12
+              },
+              {
+                "file": "router-execution-context.ts",
+                "lines": 478,
+                "statements": 74
+              },
+              {
+                "file": "router-explorer.ts",
+                "lines": 442,
+                "statements": 63
+              },
+              {
+                "file": "router-module.ts",
+                "lines": 95,
+                "statements": 13
+              },
+              {
+                "file": "router-proxy.ts",
+                "lines": 55,
+                "statements": 11
+              },
+              {
+                "file": "router-response-controller.ts",
+                "lines": 170,
+                "statements": 21
+              },
+              {
+                "file": "routes-resolver.ts",
+                "lines": 220,
+                "statements": 37
+              },
+              {
+                "file": "sse-stream.ts",
+                "lines": 126,
+                "statements": 8
+              },
+              {
+                "directory": "packages/core/router/utils/",
+                "totalLines": 53,
+                "totalStatements": 9,
+                "files": [
+                  {
+                    "file": "exclude-route.util.ts",
+                    "lines": 24,
+                    "statements": 4
+                  },
+                  {
+                    "file": "flatten-route-paths.util.ts",
+                    "lines": 26,
+                    "statements": 5
+                  },
+                  {
+                    "file": "index.ts",
+                    "lines": 3,
+                    "statements": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "file": "scanner.ts",
+            "lines": 759,
+            "statements": 87
+          },
+          {
+            "directory": "packages/core/services/",
+            "totalLines": 264,
+            "totalStatements": 23,
+            "files": [
+              {
+                "file": "index.ts",
+                "lines": 2,
+                "statements": 0
+              },
+              {
+                "file": "reflector.service.ts",
+                "lines": 262,
+                "statements": 23
+              }
+            ]
+          },
+          {
+            "directory": "packages/core/test/",
+            "totalLines": 12346,
+            "totalStatements": 3374,
+            "files": [
+              {
+                "file": "application-config.spec.ts",
+                "lines": 152,
+                "statements": 47
+              },
+              {
+                "directory": "packages/core/test/errors/",
+                "totalLines": 391,
+                "totalStatements": 100,
+                "files": [
+                  {
+                    "directory": "packages/core/test/errors/test/",
+                    "totalLines": 391,
+                    "totalStatements": 100,
+                    "files": [
+                      {
+                        "file": "exception-handler.spec.ts",
+                        "lines": 35,
+                        "statements": 12
+                      },
+                      {
+                        "file": "exceptions-zone.spec.ts",
+                        "lines": 118,
+                        "statements": 43
+                      },
+                      {
+                        "file": "messages.spec.ts",
+                        "lines": 238,
+                        "statements": 45
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "directory": "packages/core/test/exceptions/",
+                "totalLines": 463,
+                "totalStatements": 156,
+                "files": [
+                  {
+                    "file": "base-exception-filter.spec.ts",
+                    "lines": 74,
+                    "statements": 33
+                  },
+                  {
+                    "file": "exceptions-handler.spec.ts",
+                    "lines": 175,
+                    "statements": 46
+                  },
+                  {
+                    "file": "external-exception-filter-context.spec.ts",
+                    "lines": 118,
+                    "statements": 41
+                  },
+                  {
+                    "file": "external-exceptions-handler.spec.ts",
+                    "lines": 96,
+                    "statements": 36
+                  }
+                ]
+              },
+              {
+                "directory": "packages/core/test/guards/",
+                "totalLines": 229,
+                "totalStatements": 83,
+                "files": [
+                  {
+                    "file": "guards-consumer.spec.ts",
+                    "lines": 62,
+                    "statements": 26
+                  },
+                  {
+                    "file": "guards-context-creator.spec.ts",
+                    "lines": 167,
+                    "statements": 57
+                  }
+                ]
+              },
+              {
+                "directory": "packages/core/test/helpers/",
+                "totalLines": 557,
+                "totalStatements": 198,
+                "files": [
+                  {
+                    "file": "application-ref-host.spec.ts",
+                    "lines": 29,
+                    "statements": 8
+                  },
+                  {
+                    "file": "context-id-factory.spec.ts",
+                    "lines": 9,
+                    "statements": 2
+                  },
+                  {
+                    "file": "context-utils.spec.ts",
+                    "lines": 125,
+                    "statements": 42
+                  },
+                  {
+                    "file": "execution-context-host.spec.ts",
+                    "lines": 75,
+                    "statements": 33
+                  },
+                  {
+                    "file": "external-context-creator.spec.ts",
+                    "lines": 237,
+                    "statements": 78
+                  },
+                  {
+                    "file": "external-proxy.spec.ts",
+                    "lines": 47,
+                    "statements": 19
+                  },
+                  {
+                    "file": "router-method-factory.spec.ts",
+                    "lines": 35,
+                    "statements": 16
+                  }
+                ]
+              },
+              {
+                "directory": "packages/core/test/hooks/",
+                "totalLines": 242,
+                "totalStatements": 56,
+                "files": [
+                  {
+                    "file": "before-app-shutdown.hook.spec.ts",
+                    "lines": 50,
+                    "statements": 12
+                  },
+                  {
+                    "file": "on-app-bootstrap.hook.spec.ts",
+                    "lines": 48,
+                    "statements": 11
+                  },
+                  {
+                    "file": "on-app-shutdown.hook.spec.ts",
+                    "lines": 48,
+                    "statements": 11
+                  },
+                  {
+                    "file": "on-module-destroy.hook.spec.ts",
+                    "lines": 48,
+                    "statements": 11
+                  },
+                  {
+                    "file": "on-module-init.hook.spec.ts",
+                    "lines": 48,
+                    "statements": 11
+                  }
+                ]
+              },
+              {
+                "directory": "packages/core/test/injector/",
+                "totalLines": 3269,
+                "totalStatements": 947,
+                "files": [
+                  {
+                    "file": "compiler.spec.ts",
+                    "lines": 44,
+                    "statements": 16
+                  },
+                  {
+                    "file": "container.spec.ts",
+                    "lines": 251,
+                    "statements": 84
+                  },
+                  {
+                    "directory": "packages/core/test/injector/helpers/",
+                    "totalLines": 133,
+                    "totalStatements": 44,
+                    "files": [
+                      {
+                        "file": "provider-classifier.spec.ts",
+                        "lines": 133,
+                        "statements": 44
+                      }
+                    ]
+                  },
+                  {
+                    "file": "injector.spec.ts",
+                    "lines": 945,
+                    "statements": 258
+                  },
+                  {
+                    "file": "instance-loader.spec.ts",
+                    "lines": 196,
+                    "statements": 35
+                  },
+                  {
+                    "file": "instance-wrapper.spec.ts",
+                    "lines": 976,
+                    "statements": 290
+                  },
+                  {
+                    "directory": "packages/core/test/injector/internal-core-module/",
+                    "totalLines": 42,
+                    "totalStatements": 7,
+                    "files": [
+                      {
+                        "file": "internal-core-module-factory.spec.ts",
+                        "lines": 42,
+                        "statements": 7
+                      }
+                    ]
+                  },
+                  {
+                    "directory": "packages/core/test/injector/lazy-module-loader/",
+                    "totalLines": 81,
+                    "totalStatements": 25,
+                    "files": [
+                      {
+                        "file": "lazy-module-loader.spec.ts",
+                        "lines": 81,
+                        "statements": 25
+                      }
+                    ]
+                  },
+                  {
+                    "file": "module-token-factory.spec.ts",
+                    "lines": 90,
+                    "statements": 37
+                  },
+                  {
+                    "file": "module.spec.ts",
+                    "lines": 511,
+                    "statements": 151
+                  }
+                ]
+              },
+              {
+                "directory": "packages/core/test/inspector/",
+                "totalLines": 381,
+                "totalStatements": 99,
+                "files": [
+                  {
+                    "file": "graph-inspector.spec.ts",
+                    "lines": 220,
+                    "statements": 61
+                  },
+                  {
+                    "file": "serialized-graph.spec.ts",
+                    "lines": 161,
+                    "statements": 38
+                  }
+                ]
+              },
+              {
+                "directory": "packages/core/test/interceptors/",
+                "totalLines": 407,
+                "totalStatements": 137,
+                "files": [
+                  {
+                    "file": "interceptors-consumer.spec.ts",
+                    "lines": 235,
+                    "statements": 80
+                  },
+                  {
+                    "file": "interceptors-context-creator.spec.ts",
+                    "lines": 172,
+                    "statements": 57
+                  }
+                ]
+              },
+              {
+                "file": "metadata-scanner.spec.ts",
+                "lines": 62,
+                "statements": 20
+              },
+              {
+                "directory": "packages/core/test/middleware/",
+                "totalLines": 1065,
+                "totalStatements": 202,
+                "files": [
+                  {
+                    "file": "builder.spec.ts",
+                    "lines": 202,
+                    "statements": 25
+                  },
+                  {
+                    "file": "container.spec.ts",
+                    "lines": 75,
+                    "statements": 15
+                  },
+                  {
+                    "file": "middleware-module.spec.ts",
+                    "lines": 280,
+                    "statements": 63
+                  },
+                  {
+                    "file": "resolver.spec.ts",
+                    "lines": 47,
+                    "statements": 12
+                  },
+                  {
+                    "file": "route-info-path-extractor.spec.ts",
+                    "lines": 186,
+                    "statements": 15
+                  },
+                  {
+                    "file": "routes-mapper.spec.ts",
+                    "lines": 131,
+                    "statements": 14
+                  },
+                  {
+                    "file": "utils.spec.ts",
+                    "lines": 144,
+                    "statements": 58
+                  }
+                ]
+              },
+              {
+                "file": "nest-application-context.spec.ts",
+                "lines": 379,
+                "statements": 149
+              },
+              {
+                "file": "nest-application.spec.ts",
+                "lines": 108,
+                "statements": 26
+              },
+              {
+                "directory": "packages/core/test/pipes/",
+                "totalLines": 213,
+                "totalStatements": 86,
+                "files": [
+                  {
+                    "file": "params-token-factory.spec.ts",
+                    "lines": 41,
+                    "statements": 13
+                  },
+                  {
+                    "file": "pipes-consumer.spec.ts",
+                    "lines": 48,
+                    "statements": 18
+                  },
+                  {
+                    "file": "pipes-context-creator.spec.ts",
+                    "lines": 124,
+                    "statements": 55
+                  }
+                ]
+              },
+              {
+                "directory": "packages/core/test/repl/",
+                "totalLines": 548,
+                "totalStatements": 152,
+                "files": [
+                  {
+                    "file": "assign-to-object.util.spec.ts",
+                    "lines": 37,
+                    "statements": 4
+                  },
+                  {
+                    "directory": "packages/core/test/repl/native-functions/",
+                    "totalLines": 472,
+                    "totalStatements": 139,
+                    "files": [
+                      {
+                        "file": "debug-repl-fn.spec.ts",
+                        "lines": 142,
+                        "statements": 38
+                      },
+                      {
+                        "file": "get-repl-fn.spec.ts",
+                        "lines": 48,
+                        "statements": 14
+                      },
+                      {
+                        "file": "help-repl-fn.spec.ts",
+                        "lines": 69,
+                        "statements": 20
+                      },
+                      {
+                        "file": "methods-repl-fn.spec.ts",
+                        "lines": 115,
+                        "statements": 37
+                      },
+                      {
+                        "file": "resolve-repl-fn.spec.ts",
+                        "lines": 50,
+                        "statements": 15
+                      },
+                      {
+                        "file": "select-repl-fn.spec.ts",
+                        "lines": 48,
+                        "statements": 15
+                      }
+                    ]
+                  },
+                  {
+                    "file": "repl-context.spec.ts",
+                    "lines": 39,
+                    "statements": 9
+                  }
+                ]
+              },
+              {
+                "directory": "packages/core/test/router/",
+                "totalLines": 2955,
+                "totalStatements": 655,
+                "files": [
+                  {
+                    "file": "paths-explorer.spec.ts",
+                    "lines": 219,
+                    "statements": 52
+                  },
+                  {
+                    "file": "route-params-factory.spec.ts",
+                    "lines": 162,
+                    "statements": 38
+                  },
+                  {
+                    "file": "route-path-factory.spec.ts",
+                    "lines": 356,
+                    "statements": 27
+                  },
+                  {
+                    "file": "router-exception-filters.spec.ts",
+                    "lines": 110,
+                    "statements": 39
+                  },
+                  {
+                    "file": "router-execution-context.spec.ts",
+                    "lines": 523,
+                    "statements": 128
+                  },
+                  {
+                    "file": "router-explorer.spec.ts",
+                    "lines": 266,
+                    "statements": 51
+                  },
+                  {
+                    "file": "router-module.spec.ts",
+                    "lines": 52,
+                    "statements": 10
+                  },
+                  {
+                    "file": "router-proxy.spec.ts",
+                    "lines": 107,
+                    "statements": 30
+                  },
+                  {
+                    "file": "router-response-controller.spec.ts",
+                    "lines": 510,
+                    "statements": 147
+                  },
+                  {
+                    "file": "routes-resolver.spec.ts",
+                    "lines": 360,
+                    "statements": 78
+                  },
+                  {
+                    "file": "sse-stream.spec.ts",
+                    "lines": 185,
+                    "statements": 36
+                  },
+                  {
+                    "directory": "packages/core/test/router/utils/",
+                    "totalLines": 105,
+                    "totalStatements": 19,
+                    "files": [
+                      {
+                        "file": "flat-routes.spec.ts",
+                        "lines": 105,
+                        "statements": 19
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "file": "scanner.spec.ts",
+                "lines": 757,
+                "statements": 213
+              },
+              {
+                "directory": "packages/core/test/services/",
+                "totalLines": 117,
+                "totalStatements": 43,
+                "files": [
+                  {
+                    "file": "reflector.service.spec.ts",
+                    "lines": 117,
+                    "statements": 43
+                  }
+                ]
+              },
+              {
+                "file": "tsconfig.json",
+                "lines": 4,
+                "statements": 0
+              },
+              {
+                "directory": "packages/core/test/utils/",
+                "totalLines": 47,
+                "totalStatements": 5,
+                "files": [
+                  {
+                    "file": "noop-adapter.spec.ts",
+                    "lines": 43,
+                    "statements": 4
+                  },
+                  {
+                    "file": "string.cleaner.ts",
+                    "lines": 4,
+                    "statements": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "file": "tsconfig.build.json",
+            "lines": 22,
+            "statements": 0
+          },
+          {
+            "file": "tsconfig.json",
+            "lines": 14,
+            "statements": 0
+          }
+        ]
+      },
+      {
+        "file": "index.ts",
+        "lines": 7,
+        "statements": 0
+      },
+      {
+        "directory": "packages/microservices/",
+        "totalLines": 21492,
+        "totalStatements": 4102,
+        "files": [
+          {
+            "directory": "packages/microservices/client/",
+            "totalLines": 2157,
+            "totalStatements": 332,
+            "files": [
+              {
+                "file": "client-grpc.ts",
+                "lines": 371,
+                "statements": 81
+              },
+              {
+                "file": "client-kafka.ts",
+                "lines": 385,
+                "statements": 53
+              },
+              {
+                "file": "client-mqtt.ts",
+                "lines": 232,
+                "statements": 38
+              },
+              {
+                "file": "client-nats.ts",
+                "lines": 198,
+                "statements": 29
+              },
+              {
+                "file": "client-proxy-factory.ts",
+                "lines": 72,
+                "statements": 3
+              },
+              {
+                "file": "client-proxy.ts",
+                "lines": 170,
+                "statements": 23
+              },
+              {
+                "file": "client-redis.ts",
+                "lines": 195,
+                "statements": 30
+              },
+              {
+                "file": "client-rmq.ts",
+                "lines": 350,
+                "statements": 51
+              },
+              {
+                "file": "client-tcp.ts",
+                "lines": 171,
+                "statements": 22
+              },
+              {
+                "file": "constants.ts",
+                "lines": 3,
+                "statements": 2
+              },
+              {
+                "file": "index.ts",
+                "lines": 10,
+                "statements": 0
+              }
+            ]
+          },
+          {
+            "file": "constants.ts",
+            "lines": 74,
+            "statements": 53
+          },
+          {
+            "file": "container.ts",
+            "lines": 21,
+            "statements": 1
+          },
+          {
+            "directory": "packages/microservices/context/",
+            "totalLines": 443,
+            "totalStatements": 80,
+            "files": [
+              {
+                "file": "exception-filters-context.ts",
+                "lines": 72,
+                "statements": 13
+              },
+              {
+                "file": "request-context-host.ts",
+                "lines": 39,
+                "statements": 3
+              },
+              {
+                "file": "rpc-context-creator.ts",
+                "lines": 284,
+                "statements": 55
+              },
+              {
+                "file": "rpc-metadata-constants.ts",
+                "lines": 11,
+                "statements": 2
+              },
+              {
+                "file": "rpc-proxy.ts",
+                "lines": 37,
+                "statements": 7
+              }
+            ]
+          },
+          {
+            "directory": "packages/microservices/ctx-host/",
+            "totalLines": 229,
+            "totalStatements": 15,
+            "files": [
+              {
+                "file": "base-rpc.context.ts",
+                "lines": 22,
+                "statements": 2
+              },
+              {
+                "file": "index.ts",
+                "lines": 8,
+                "statements": 0
+              },
+              {
+                "file": "kafka.context.ts",
+                "lines": 63,
+                "statements": 3
+              },
+              {
+                "file": "mqtt.context.ts",
+                "lines": 27,
+                "statements": 2
+              },
+              {
+                "file": "nats.context.ts",
+                "lines": 27,
+                "statements": 2
+              },
+              {
+                "file": "redis.context.ts",
+                "lines": 20,
+                "statements": 2
+              },
+              {
+                "file": "rmq.context.ts",
+                "lines": 34,
+                "statements": 2
+              },
+              {
+                "file": "tcp.context.ts",
+                "lines": 28,
+                "statements": 2
+              }
+            ]
+          },
+          {
+            "directory": "packages/microservices/decorators/",
+            "totalLines": 417,
+            "totalStatements": 51,
+            "files": [
+              {
+                "file": "client.decorator.ts",
+                "lines": 24,
+                "statements": 3
+              },
+              {
+                "file": "ctx.decorator.ts",
+                "lines": 7,
+                "statements": 2
+              },
+              {
+                "file": "event-pattern.decorator.ts",
+                "lines": 75,
+                "statements": 6
+              },
+              {
+                "file": "grpc-service.decorator.ts",
+                "lines": 8,
+                "statements": 2
+              },
+              {
+                "file": "index.ts",
+                "lines": 7,
+                "statements": 0
+              },
+              {
+                "file": "message-pattern.decorator.ts",
+                "lines": 233,
+                "statements": 32
+              },
+              {
+                "file": "payload.decorator.ts",
+                "lines": 63,
+                "statements": 6
+              }
+            ]
+          },
+          {
+            "directory": "packages/microservices/deserializers/",
+            "totalLines": 223,
+            "totalStatements": 16,
+            "files": [
+              {
+                "file": "identity.deserializer.ts",
+                "lines": 11,
+                "statements": 1
+              },
+              {
+                "file": "incoming-request.deserializer.ts",
+                "lines": 48,
+                "statements": 1
+              },
+              {
+                "file": "incoming-response.deserializer.ts",
+                "lines": 34,
+                "statements": 1
+              },
+              {
+                "file": "index.ts",
+                "lines": 8,
+                "statements": 0
+              },
+              {
+                "file": "kafka-request.deserializer.ts",
+                "lines": 25,
+                "statements": 1
+              },
+              {
+                "file": "kafka-response.deserializer.ts",
+                "lines": 34,
+                "statements": 2
+              },
+              {
+                "file": "nats-request-json.deserializer.ts",
+                "lines": 31,
+                "statements": 5
+              },
+              {
+                "file": "nats-response-json.deserializer.ts",
+                "lines": 32,
+                "statements": 5
+              }
+            ]
+          },
+          {
+            "directory": "packages/microservices/enums/",
+            "totalLines": 69,
+            "totalStatements": 0,
+            "files": [
+              {
+                "file": "index.ts",
+                "lines": 3,
+                "statements": 0
+              },
+              {
+                "file": "kafka-headers.enum.ts",
+                "lines": 43,
+                "statements": 0
+              },
+              {
+                "file": "pattern-handler.enum.ts",
+                "lines": 5,
+                "statements": 0
+              },
+              {
+                "file": "rpc-paramtype.enum.ts",
+                "lines": 8,
+                "statements": 0
+              },
+              {
+                "file": "transport.enum.ts",
+                "lines": 10,
+                "statements": 0
+              }
+            ]
+          },
+          {
+            "directory": "packages/microservices/errors/",
+            "totalLines": 134,
+            "totalStatements": 24,
+            "files": [
+              {
+                "file": "corrupted-packet-length.exception.ts",
+                "lines": 9,
+                "statements": 2
+              },
+              {
+                "file": "empty-response.exception.ts",
+                "lines": 11,
+                "statements": 2
+              },
+              {
+                "file": "invalid-grpc-message-decorator.exception.ts",
+                "lines": 19,
+                "statements": 2
+              },
+              {
+                "file": "invalid-grpc-package-definition-missing-package-definition.exception.ts",
+                "lines": 10,
+                "statements": 2
+              },
+              {
+                "file": "invalid-grpc-package-definition-mutex.exception.ts",
+                "lines": 10,
+                "statements": 2
+              },
+              {
+                "file": "invalid-grpc-package.exception.ts",
+                "lines": 11,
+                "statements": 2
+              },
+              {
+                "file": "invalid-grpc-service.exception.ts",
+                "lines": 11,
+                "statements": 2
+              },
+              {
+                "file": "invalid-json-format.exception.ts",
+                "lines": 9,
+                "statements": 2
+              },
+              {
+                "file": "invalid-kafka-client-topic.exception.ts",
+                "lines": 13,
+                "statements": 2
+              },
+              {
+                "file": "invalid-message.exception.ts",
+                "lines": 11,
+                "statements": 2
+              },
+              {
+                "file": "invalid-proto-definition.exception.ts",
+                "lines": 11,
+                "statements": 2
+              },
+              {
+                "file": "net-socket-closed.exception.ts",
+                "lines": 9,
+                "statements": 2
+              }
+            ]
+          },
+          {
+            "directory": "packages/microservices/exceptions/",
+            "totalLines": 141,
+            "totalStatements": 18,
+            "files": [
+              {
+                "file": "base-rpc-exception-filter.ts",
+                "lines": 42,
+                "statements": 10
+              },
+              {
+                "file": "index.ts",
+                "lines": 4,
+                "statements": 0
+              },
+              {
+                "file": "kafka-retriable-exception.ts",
+                "lines": 18,
+                "statements": 1
+              },
+              {
+                "file": "rpc-exception.ts",
+                "lines": 31,
+                "statements": 4
+              },
+              {
+                "file": "rpc-exceptions-handler.ts",
+                "lines": 46,
+                "statements": 3
+              }
+            ]
+          },
+          {
+            "directory": "packages/microservices/external/",
+            "totalLines": 2062,
+            "totalStatements": 153,
+            "files": [
+              {
+                "file": "grpc-options.interface.ts",
+                "lines": 23,
+                "statements": 1
+              },
+              {
+                "file": "kafka.interface.ts",
+                "lines": 1335,
+                "statements": 130
+              },
+              {
+                "file": "mqtt-client.interface.ts",
+                "lines": 142,
+                "statements": 5
+              },
+              {
+                "file": "mqtt-options.interface.ts",
+                "lines": 181,
+                "statements": 2
+              },
+              {
+                "file": "nats-client.interface.ts",
+                "lines": 94,
+                "statements": 2
+              },
+              {
+                "file": "redis.interface.ts",
+                "lines": 216,
+                "statements": 9
+              },
+              {
+                "file": "rmq-url.interface.ts",
+                "lines": 71,
+                "statements": 4
+              }
+            ]
+          },
+          {
+            "directory": "packages/microservices/factories/",
+            "totalLines": 24,
+            "totalStatements": 1,
+            "files": [
+              {
+                "file": "rpc-params-factory.ts",
+                "lines": 24,
+                "statements": 1
+              }
+            ]
+          },
+          {
+            "directory": "packages/microservices/helpers/",
+            "totalLines": 474,
+            "totalStatements": 71,
+            "files": [
+              {
+                "file": "grpc-helpers.ts",
+                "lines": 24,
+                "statements": 3
+              },
+              {
+                "file": "index.ts",
+                "lines": 7,
+                "statements": 0
+              },
+              {
+                "file": "json-socket.ts",
+                "lines": 68,
+                "statements": 11
+              },
+              {
+                "file": "kafka-logger.ts",
+                "lines": 32,
+                "statements": 5
+              },
+              {
+                "file": "kafka-parser.ts",
+                "lines": 62,
+                "statements": 7
+              },
+              {
+                "file": "kafka-reply-partition-assigner.ts",
+                "lines": 202,
+                "statements": 34
+              },
+              {
+                "file": "tcp-socket.ts",
+                "lines": 79,
+                "statements": 11
+              }
+            ]
+          },
+          {
+            "file": "index.ts",
+            "lines": 21,
+            "statements": 0
+          },
+          {
+            "directory": "packages/microservices/interfaces/",
+            "totalLines": 460,
+            "totalStatements": 3,
+            "files": [
+              {
+                "file": "client-grpc.interface.ts",
+                "lines": 8,
+                "statements": 0
+              },
+              {
+                "file": "client-metadata.interface.ts",
+                "lines": 48,
+                "statements": 0
+              },
+              {
+                "file": "closeable.interface.ts",
+                "lines": 4,
+                "statements": 0
+              },
+              {
+                "file": "custom-transport-strategy.interface.ts",
+                "lines": 11,
+                "statements": 1
+              },
+              {
+                "file": "deserializer.interface.ts",
+                "lines": 22,
+                "statements": 0
+              },
+              {
+                "file": "index.ts",
+                "lines": 13,
+                "statements": 0
+              },
+              {
+                "file": "message-handler.interface.ts",
+                "lines": 18,
+                "statements": 1
+              },
+              {
+                "file": "microservice-configuration.interface.ts",
+                "lines": 259,
+                "statements": 1
+              },
+              {
+                "file": "microservice-entrypoint-metadata.interface.ts",
+                "lines": 10,
+                "statements": 0
+              },
+              {
+                "file": "packet.interface.ts",
+                "lines": 23,
+                "statements": 0
+              },
+              {
+                "file": "pattern-metadata.interface.ts",
+                "lines": 2,
+                "statements": 0
+              },
+              {
+                "file": "pattern.interface.ts",
+                "lines": 8,
+                "statements": 0
+              },
+              {
+                "file": "request-context.interface.ts",
+                "lines": 15,
+                "statements": 0
+              },
+              {
+                "file": "serializer.interface.ts",
+                "lines": 19,
+                "statements": 0
+              }
+            ]
+          },
+          {
+            "file": "listener-metadata-explorer.ts",
+            "lines": 92,
+            "statements": 16
+          },
+          {
+            "file": "listeners-controller.ts",
+            "lines": 341,
+            "statements": 44
+          },
+          {
+            "file": "microservices-module.ts",
+            "lines": 122,
+            "statements": 12
+          },
+          {
+            "directory": "packages/microservices/module/",
+            "totalLines": 152,
+            "totalStatements": 14,
+            "files": [
+              {
+                "file": "clients.module.ts",
+                "lines": 110,
+                "statements": 13
+              },
+              {
+                "file": "index.ts",
+                "lines": 3,
+                "statements": 0
+              },
+              {
+                "directory": "packages/microservices/module/interfaces/",
+                "totalLines": 39,
+                "totalStatements": 1,
+                "files": [
+                  {
+                    "file": "clients-module.interface.ts",
+                    "lines": 37,
+                    "statements": 1
+                  },
+                  {
+                    "file": "index.ts",
+                    "lines": 2,
+                    "statements": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "file": "nest-microservice.ts",
+            "lines": 219,
+            "statements": 12
+          },
+          {
+            "file": "package.json",
+            "lines": 73,
+            "statements": 0
+          },
+          {
+            "directory": "packages/microservices/record-builders/",
+            "totalLines": 182,
+            "totalStatements": 12,
+            "files": [
+              {
+                "file": "index.ts",
+                "lines": 4,
+                "statements": 0
+              },
+              {
+                "file": "mqtt.record-builder.ts",
+                "lines": 91,
+                "statements": 4
+              },
+              {
+                "file": "nats.record-builder.ts",
+                "lines": 33,
+                "statements": 4
+              },
+              {
+                "file": "rmq.record-builder.ts",
+                "lines": 54,
+                "statements": 4
+              }
+            ]
+          },
+          {
+            "directory": "packages/microservices/serializers/",
+            "totalLines": 152,
+            "totalStatements": 13,
+            "files": [
+              {
+                "file": "identity.serializer.ts",
+                "lines": 8,
+                "statements": 1
+              },
+              {
+                "file": "index.ts",
+                "lines": 6,
+                "statements": 0
+              },
+              {
+                "file": "kafka-request.serializer.ts",
+                "lines": 55,
+                "statements": 3
+              },
+              {
+                "file": "mqtt-record.serializer.ts",
+                "lines": 24,
+                "statements": 2
+              },
+              {
+                "file": "nats-record.serializer.ts",
+                "lines": 34,
+                "statements": 5
+              },
+              {
+                "file": "rmq-record.serializer.ts",
+                "lines": 25,
+                "statements": 2
+              }
+            ]
+          },
+          {
+            "directory": "packages/microservices/server/",
+            "totalLines": 2311,
+            "totalStatements": 320,
+            "files": [
+              {
+                "file": "index.ts",
+                "lines": 9,
+                "statements": 0
+              },
+              {
+                "file": "server-factory.ts",
+                "lines": 35,
+                "statements": 2
+              },
+              {
+                "file": "server-grpc.ts",
+                "lines": 705,
+                "statements": 107
+              },
+              {
+                "file": "server-kafka.ts",
+                "lines": 324,
+                "statements": 41
+              },
+              {
+                "file": "server-mqtt.ts",
+                "lines": 227,
+                "statements": 37
+              },
+              {
+                "file": "server-nats.ts",
+                "lines": 177,
+                "statements": 31
+              },
+              {
+                "file": "server-redis.ts",
+                "lines": 202,
+                "statements": 27
+              },
+              {
+                "file": "server-rmq.ts",
+                "lines": 259,
+                "statements": 33
+              },
+              {
+                "file": "server-tcp.ts",
+                "lines": 151,
+                "statements": 18
+              },
+              {
+                "file": "server.ts",
+                "lines": 222,
+                "statements": 24
+              }
+            ]
+          },
+          {
+            "directory": "packages/microservices/test/",
+            "totalLines": 10610,
+            "totalStatements": 2813,
+            "files": [
+              {
+                "directory": "packages/microservices/test/client/",
+                "totalLines": 3474,
+                "totalStatements": 1026,
+                "files": [
+                  {
+                    "file": "client-grpc.spec.ts",
+                    "lines": 510,
+                    "statements": 175
+                  },
+                  {
+                    "file": "client-kafka.spec.ts",
+                    "lines": 872,
+                    "statements": 182
+                  },
+                  {
+                    "file": "client-mqtt.spec.ts",
+                    "lines": 409,
+                    "statements": 132
+                  },
+                  {
+                    "file": "client-nats.spec.ts",
+                    "lines": 413,
+                    "statements": 106
+                  },
+                  {
+                    "file": "client-proxy-factory.spec.ts",
+                    "lines": 57,
+                    "statements": 16
+                  },
+                  {
+                    "file": "client-proxy.spec.ts",
+                    "lines": 177,
+                    "statements": 85
+                  },
+                  {
+                    "file": "client-redis.spec.ts",
+                    "lines": 325,
+                    "statements": 104
+                  },
+                  {
+                    "file": "client-rmq.spec.ts",
+                    "lines": 463,
+                    "statements": 146
+                  },
+                  {
+                    "file": "client-tcp.spec.ts",
+                    "lines": 232,
+                    "statements": 80
+                  },
+                  {
+                    "file": "test.proto",
+                    "lines": 8,
+                    "statements": 0
+                  },
+                  {
+                    "file": "test2.proto",
+                    "lines": 8,
+                    "statements": 0
+                  }
+                ]
+              },
+              {
+                "file": "container.spec.ts",
+                "lines": 32,
+                "statements": 12
+              },
+              {
+                "directory": "packages/microservices/test/context/",
+                "totalLines": 396,
+                "totalStatements": 131,
+                "files": [
+                  {
+                    "file": "exception-filters-context.spec.ts",
+                    "lines": 89,
+                    "statements": 31
+                  },
+                  {
+                    "file": "request-context-host.spec.ts",
+                    "lines": 30,
+                    "statements": 12
+                  },
+                  {
+                    "file": "rpc-context-creator.spec.ts",
+                    "lines": 232,
+                    "statements": 68
+                  },
+                  {
+                    "file": "rpc-proxy.spec.ts",
+                    "lines": 45,
+                    "statements": 20
+                  }
+                ]
+              },
+              {
+                "directory": "packages/microservices/test/ctx-host/",
+                "totalLines": 197,
+                "totalStatements": 66,
+                "files": [
+                  {
+                    "file": "base-rpc-context.spec.ts",
+                    "lines": 24,
+                    "statements": 8
+                  },
+                  {
+                    "file": "kafka.context.spec.ts",
+                    "lines": 63,
+                    "statements": 18
+                  },
+                  {
+                    "file": "mqtt.context.spec.ts",
+                    "lines": 22,
+                    "statements": 8
+                  },
+                  {
+                    "file": "nats.context.spec.ts",
+                    "lines": 22,
+                    "statements": 8
+                  },
+                  {
+                    "file": "redis.context.spec.ts",
+                    "lines": 17,
+                    "statements": 6
+                  },
+                  {
+                    "file": "rmq.context.spec.ts",
+                    "lines": 27,
+                    "statements": 10
+                  },
+                  {
+                    "file": "tcp.context.spec.ts",
+                    "lines": 22,
+                    "statements": 8
+                  }
+                ]
+              },
+              {
+                "directory": "packages/microservices/test/decorators/",
+                "totalLines": 563,
+                "totalStatements": 136,
+                "files": [
+                  {
+                    "file": "client.decorator.spec.ts",
+                    "lines": 31,
+                    "statements": 7
+                  },
+                  {
+                    "file": "ctx.decorator.spec.ts",
+                    "lines": 27,
+                    "statements": 7
+                  },
+                  {
+                    "file": "event-pattern.decorator.spec.ts",
+                    "lines": 183,
+                    "statements": 44
+                  },
+                  {
+                    "file": "message-pattern.decorator.spec.ts",
+                    "lines": 294,
+                    "statements": 71
+                  },
+                  {
+                    "file": "payload.decorator.spec.ts",
+                    "lines": 28,
+                    "statements": 7
+                  }
+                ]
+              },
+              {
+                "directory": "packages/microservices/test/deserializers/",
+                "totalLines": 155,
+                "totalStatements": 44,
+                "files": [
+                  {
+                    "file": "identity.deserializer.spec.ts",
+                    "lines": 16,
+                    "statements": 6
+                  },
+                  {
+                    "file": "incoming-request.deserializer.spec.ts",
+                    "lines": 51,
+                    "statements": 14
+                  },
+                  {
+                    "file": "incoming-response.deserializer.spec.ts",
+                    "lines": 42,
+                    "statements": 11
+                  },
+                  {
+                    "file": "kafka-response.deserializer.spec.ts",
+                    "lines": 46,
+                    "statements": 13
+                  }
+                ]
+              },
+              {
+                "directory": "packages/microservices/test/exceptions/",
+                "totalLines": 170,
+                "totalStatements": 63,
+                "files": [
+                  {
+                    "file": "rpc-exception.spec.ts",
+                    "lines": 42,
+                    "statements": 18
+                  },
+                  {
+                    "file": "rpc-exceptions-handler.spec.ts",
+                    "lines": 128,
+                    "statements": 45
+                  }
+                ]
+              },
+              {
+                "directory": "packages/microservices/test/factories/",
+                "totalLines": 48,
+                "totalStatements": 17,
+                "files": [
+                  {
+                    "file": "rpc-params-factory.spec.ts",
+                    "lines": 48,
+                    "statements": 17
+                  }
+                ]
+              },
+              {
+                "directory": "packages/microservices/test/helpers/",
+                "totalLines": 609,
+                "totalStatements": 69,
+                "files": [
+                  {
+                    "file": "grpc-helpers.spec.ts",
+                    "lines": 65,
+                    "statements": 15
+                  },
+                  {
+                    "file": "kafka-logger.spec.ts",
+                    "lines": 96,
+                    "statements": 15
+                  },
+                  {
+                    "file": "kafka-parser.spec.ts",
+                    "lines": 161,
+                    "statements": 18
+                  },
+                  {
+                    "file": "kafka-reply-partition-assigner.spec.ts",
+                    "lines": 287,
+                    "statements": 21
+                  }
+                ]
+              },
+              {
+                "directory": "packages/microservices/test/json-socket/",
+                "totalLines": 785,
+                "totalStatements": 127,
+                "files": [
+                  {
+                    "file": "connection.spec.ts",
+                    "lines": 215,
+                    "statements": 59
+                  },
+                  {
+                    "directory": "packages/microservices/test/json-socket/data/",
+                    "totalLines": 263,
+                    "totalStatements": 1,
+                    "files": [
+                      {
+                        "file": "long-payload-with-special-chars.ts",
+                        "lines": 263,
+                        "statements": 1
+                      }
+                    ]
+                  },
+                  {
+                    "file": "helpers.ts",
+                    "lines": 83,
+                    "statements": 22
+                  },
+                  {
+                    "file": "listener-chaining.spec.ts",
+                    "lines": 28,
+                    "statements": 8
+                  },
+                  {
+                    "file": "message-parsing.spec.ts",
+                    "lines": 196,
+                    "statements": 37
+                  }
+                ]
+              },
+              {
+                "file": "listeners-controller.spec.ts",
+                "lines": 352,
+                "statements": 67
+              },
+              {
+                "file": "listeners-metadata-explorer.spec.ts",
+                "lines": 169,
+                "statements": 39
+              },
+              {
+                "directory": "packages/microservices/test/module/",
+                "totalLines": 125,
+                "totalStatements": 37,
+                "files": [
+                  {
+                    "file": "clients.module.spec.ts",
+                    "lines": 125,
+                    "statements": 37
+                  }
+                ]
+              },
+              {
+                "directory": "packages/microservices/test/serializers/",
+                "totalLines": 310,
+                "totalStatements": 61,
+                "files": [
+                  {
+                    "file": "identity.serializer.spec.ts",
+                    "lines": 16,
+                    "statements": 6
+                  },
+                  {
+                    "file": "kafka-request.serializer.spec.ts",
+                    "lines": 136,
+                    "statements": 19
+                  },
+                  {
+                    "file": "mqtt-record.serializer.spec.ts",
+                    "lines": 37,
+                    "statements": 10
+                  },
+                  {
+                    "file": "nats-record.serializer.spec.ts",
+                    "lines": 86,
+                    "statements": 16
+                  },
+                  {
+                    "file": "rmq-record.serializer.spec.ts",
+                    "lines": 35,
+                    "statements": 10
+                  }
+                ]
+              },
+              {
+                "directory": "packages/microservices/test/server/",
+                "totalLines": 3097,
+                "totalStatements": 890,
+                "files": [
+                  {
+                    "file": "server-factory.spec.ts",
+                    "lines": 69,
+                    "statements": 10
+                  },
+                  {
+                    "file": "server-grpc.spec.ts",
+                    "lines": 1001,
+                    "statements": 270
+                  },
+                  {
+                    "file": "server-kafka.spec.ts",
+                    "lines": 517,
+                    "statements": 118
+                  },
+                  {
+                    "file": "server-mqtt.spec.ts",
+                    "lines": 252,
+                    "statements": 81
+                  },
+                  {
+                    "file": "server-nats.spec.ts",
+                    "lines": 268,
+                    "statements": 83
+                  },
+                  {
+                    "file": "server-redis.spec.ts",
+                    "lines": 287,
+                    "statements": 100
+                  },
+                  {
+                    "file": "server-rmq.spec.ts",
+                    "lines": 310,
+                    "statements": 99
+                  },
+                  {
+                    "file": "server-tcp.spec.ts",
+                    "lines": 140,
+                    "statements": 47
+                  },
+                  {
+                    "file": "server.spec.ts",
+                    "lines": 247,
+                    "statements": 82
+                  },
+                  {
+                    "file": "test.proto",
+                    "lines": 3,
+                    "statements": 0
+                  },
+                  {
+                    "file": "test2.proto",
+                    "lines": 3,
+                    "statements": 0
+                  }
+                ]
+              },
+              {
+                "file": "tsconfig.json",
+                "lines": 4,
+                "statements": 0
+              },
+              {
+                "directory": "packages/microservices/test/utils/",
+                "totalLines": 124,
+                "totalStatements": 28,
+                "files": [
+                  {
+                    "file": "transform-pattern.utils.spec.ts",
+                    "lines": 124,
+                    "statements": 28
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "file": "tokens.ts",
+            "lines": 4,
+            "statements": 1
+          },
+          {
+            "file": "tsconfig.build.json",
+            "lines": 28,
+            "statements": 0
+          },
+          {
+            "file": "tsconfig.json",
+            "lines": 14,
+            "statements": 0
+          },
+          {
+            "directory": "packages/microservices/utils/",
+            "totalLines": 91,
+            "totalStatements": 26,
+            "files": [
+              {
+                "file": "index.ts",
+                "lines": 2,
+                "statements": 0
+              },
+              {
+                "file": "param.utils.ts",
+                "lines": 45,
+                "statements": 18
+              },
+              {
+                "file": "transform-pattern.utils.ts",
+                "lines": 44,
+                "statements": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "directory": "packages/platform-express/",
+        "totalLines": 1958,
+        "totalStatements": 275,
+        "files": [
+          {
+            "directory": "packages/platform-express/adapters/",
+            "totalLines": 490,
+            "totalStatements": 48,
+            "files": [
+              {
+                "file": "express-adapter.ts",
+                "lines": 457,
+                "statements": 44
+              },
+              {
+                "file": "index.ts",
+                "lines": 2,
+                "statements": 0
+              },
+              {
+                "directory": "packages/platform-express/adapters/utils/",
+                "totalLines": 31,
+                "totalStatements": 4,
+                "files": [
+                  {
+                    "file": "get-body-parser-options.util.ts",
+                    "lines": 31,
+                    "statements": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "file": "index.ts",
+            "lines": 11,
+            "statements": 0
+          },
+          {
+            "directory": "packages/platform-express/interfaces/",
+            "totalLines": 254,
+            "totalStatements": 10,
+            "files": [
+              {
+                "file": "index.ts",
+                "lines": 4,
+                "statements": 0
+              },
+              {
+                "file": "nest-express-application.interface.ts",
+                "lines": 138,
+                "statements": 7
+              },
+              {
+                "file": "nest-express-body-parser-options.interface.ts",
+                "lines": 27,
+                "statements": 1
+              },
+              {
+                "file": "nest-express-body-parser.interface.ts",
+                "lines": 5,
+                "statements": 0
+              },
+              {
+                "file": "serve-static-options.interface.ts",
+                "lines": 80,
+                "statements": 2
+              }
+            ]
+          },
+          {
+            "directory": "packages/platform-express/multer/",
+            "totalLines": 573,
+            "totalStatements": 59,
+            "files": [
+              {
+                "file": "files.constants.ts",
+                "lines": 2,
+                "statements": 1
+              },
+              {
+                "file": "index.ts",
+                "lines": 4,
+                "statements": 0
+              },
+              {
+                "directory": "packages/platform-express/multer/interceptors/",
+                "totalLines": 339,
+                "totalStatements": 45,
+                "files": [
+                  {
+                    "file": "any-files.interceptor.ts",
+                    "lines": 62,
+                    "statements": 9
+                  },
+                  {
+                    "file": "file-fields.interceptor.ts",
+                    "lines": 70,
+                    "statements": 9
+                  },
+                  {
+                    "file": "file.interceptor.ts",
+                    "lines": 68,
+                    "statements": 9
+                  },
+                  {
+                    "file": "files.interceptor.ts",
+                    "lines": 71,
+                    "statements": 9
+                  },
+                  {
+                    "file": "index.ts",
+                    "lines": 6,
+                    "statements": 0
+                  },
+                  {
+                    "file": "no-files.interceptor.ts",
+                    "lines": 62,
+                    "statements": 9
+                  }
+                ]
+              },
+              {
+                "directory": "packages/platform-express/multer/interfaces/",
+                "totalLines": 96,
+                "totalStatements": 3,
+                "files": [
+                  {
+                    "file": "files-upload-module.interface.ts",
+                    "lines": 25,
+                    "statements": 1
+                  },
+                  {
+                    "file": "index.ts",
+                    "lines": 2,
+                    "statements": 0
+                  },
+                  {
+                    "file": "multer-options.interface.ts",
+                    "lines": 69,
+                    "statements": 2
+                  }
+                ]
+              },
+              {
+                "directory": "packages/platform-express/multer/multer/",
+                "totalLines": 52,
+                "totalStatements": 4,
+                "files": [
+                  {
+                    "file": "multer.constants.ts",
+                    "lines": 20,
+                    "statements": 2
+                  },
+                  {
+                    "file": "multer.utils.ts",
+                    "lines": 32,
+                    "statements": 2
+                  }
+                ]
+              },
+              {
+                "file": "multer.constants.ts",
+                "lines": 2,
+                "statements": 1
+              },
+              {
+                "file": "multer.module.ts",
+                "lines": 78,
+                "statements": 5
+              }
+            ]
+          },
+          {
+            "file": "package.json",
+            "lines": 36,
+            "statements": 0
+          },
+          {
+            "directory": "packages/platform-express/test/",
+            "totalLines": 405,
+            "totalStatements": 157,
+            "files": [
+              {
+                "directory": "packages/platform-express/test/multer/",
+                "totalLines": 401,
+                "totalStatements": 157,
+                "files": [
+                  {
+                    "directory": "packages/platform-express/test/multer/interceptors/",
+                    "totalLines": 252,
+                    "totalStatements": 110,
+                    "files": [
+                      {
+                        "file": "any-files.interceptor.spec.ts",
+                        "lines": 46,
+                        "statements": 19
+                      },
+                      {
+                        "file": "file-fields.interceptor.spec.ts",
+                        "lines": 65,
+                        "statements": 29
+                      },
+                      {
+                        "file": "file.interceptor.spec.ts",
+                        "lines": 47,
+                        "statements": 21
+                      },
+                      {
+                        "file": "files.interceptor.spec.ts",
+                        "lines": 49,
+                        "statements": 22
+                      },
+                      {
+                        "file": "no-files.inteceptor.spec.ts",
+                        "lines": 45,
+                        "statements": 19
+                      }
+                    ]
+                  },
+                  {
+                    "directory": "packages/platform-express/test/multer/multer/",
+                    "totalLines": 149,
+                    "totalStatements": 47,
+                    "files": [
+                      {
+                        "file": "multer.module.spec.ts",
+                        "lines": 87,
+                        "statements": 27
+                      },
+                      {
+                        "file": "multer.utils.spec.ts",
+                        "lines": 62,
+                        "statements": 20
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "file": "tsconfig.json",
+                "lines": 4,
+                "statements": 0
+              }
+            ]
+          },
+          {
+            "file": "tsconfig.build.json",
+            "lines": 23,
+            "statements": 0
+          },
+          {
+            "file": "tsconfig.json",
+            "lines": 14,
+            "statements": 0
+          }
+        ]
+      },
+      {
+        "directory": "packages/platform-fastify/",
+        "totalLines": 1330,
+        "totalStatements": 113,
+        "files": [
+          {
+            "directory": "packages/platform-fastify/adapters/",
+            "totalLines": 742,
+            "totalStatements": 66,
+            "files": [
+              {
+                "file": "fastify-adapter.ts",
+                "lines": 740,
+                "statements": 66
+              },
+              {
+                "file": "index.ts",
+                "lines": 2,
+                "statements": 0
+              }
+            ]
+          },
+          {
+            "file": "constants.ts",
+            "lines": 4,
+            "statements": 3
+          },
+          {
+            "directory": "packages/platform-fastify/decorators/",
+            "totalLines": 26,
+            "totalStatements": 8,
+            "files": [
+              {
+                "file": "index.ts",
+                "lines": 3,
+                "statements": 1
+              },
+              {
+                "file": "route-config.decorator.ts",
+                "lines": 11,
+                "statements": 3
+              },
+              {
+                "file": "route-constraints.decorator.ts",
+                "lines": 12,
+                "statements": 4
+              }
+            ]
+          },
+          {
+            "file": "index.ts",
+            "lines": 11,
+            "statements": 0
+          },
+          {
+            "directory": "packages/platform-fastify/interfaces/",
+            "totalLines": 256,
+            "totalStatements": 12,
+            "files": [
+              {
+                "directory": "packages/platform-fastify/interfaces/external/",
+                "totalLines": 125,
+                "totalStatements": 4,
+                "files": [
+                  {
+                    "file": "fastify-static-options.interface.ts",
+                    "lines": 91,
+                    "statements": 4
+                  },
+                  {
+                    "file": "fastify-view-options.interface.ts",
+                    "lines": 31,
+                    "statements": 0
+                  },
+                  {
+                    "file": "index.ts",
+                    "lines": 3,
+                    "statements": 0
+                  }
+                ]
+              },
+              {
+                "file": "index.ts",
+                "lines": 3,
+                "statements": 0
+              },
+              {
+                "file": "nest-fastify-application.interface.ts",
+                "lines": 121,
+                "statements": 8
+              },
+              {
+                "file": "nest-fastify-body-parser-options.interface.ts",
+                "lines": 7,
+                "statements": 0
+              }
+            ]
+          },
+          {
+            "file": "package.json",
+            "lines": 44,
+            "statements": 0
+          },
+          {
+            "directory": "packages/platform-fastify/test/",
+            "totalLines": 58,
+            "totalStatements": 23,
+            "files": [
+              {
+                "directory": "packages/platform-fastify/test/decorators/",
+                "totalLines": 58,
+                "totalStatements": 23,
+                "files": [
+                  {
+                    "file": "router-config.decorator.spec.ts",
+                    "lines": 18,
+                    "statements": 6
+                  },
+                  {
+                    "file": "router-constraints.decorator.spec.ts",
+                    "lines": 40,
+                    "statements": 17
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "file": "tsconfig.build.json",
+            "lines": 23,
+            "statements": 0
+          },
+          {
+            "file": "tsconfig.json",
+            "lines": 14,
+            "statements": 0
+          }
+        ]
+      },
+      {
+        "directory": "packages/platform-socket.io/",
+        "totalLines": 324,
+        "totalStatements": 16,
+        "files": [
+          {
+            "directory": "packages/platform-socket.io/adapters/",
+            "totalLines": 96,
+            "totalStatements": 15,
+            "files": [
+              {
+                "file": "index.ts",
+                "lines": 2,
+                "statements": 0
+              },
+              {
+                "file": "io-adapter.ts",
+                "lines": 94,
+                "statements": 15
+              }
+            ]
+          },
+          {
+            "file": "index.ts",
+            "lines": 9,
+            "statements": 0
+          },
+          {
+            "file": "package.json",
+            "lines": 30,
+            "statements": 0
+          },
+          {
+            "file": "tsconfig.build.json",
+            "lines": 23,
+            "statements": 0
+          },
+          {
+            "file": "tsconfig.json",
+            "lines": 14,
+            "statements": 0
+          }
+        ]
+      },
+      {
+        "directory": "packages/platform-ws/",
+        "totalLines": 459,
+        "totalStatements": 45,
+        "files": [
+          {
+            "directory": "packages/platform-ws/adapters/",
+            "totalLines": 231,
+            "totalStatements": 44,
+            "files": [
+              {
+                "file": "index.ts",
+                "lines": 2,
+                "statements": 0
+              },
+              {
+                "file": "ws-adapter.ts",
+                "lines": 229,
+                "statements": 44
+              }
+            ]
+          },
+          {
+            "file": "index.ts",
+            "lines": 9,
+            "statements": 0
+          },
+          {
+            "file": "package.json",
+            "lines": 30,
+            "statements": 0
+          },
+          {
+            "file": "tsconfig.build.json",
+            "lines": 23,
+            "statements": 0
+          },
+          {
+            "file": "tsconfig.json",
+            "lines": 14,
+            "statements": 0
+          }
+        ]
+      },
+      {
+        "directory": "packages/testing/",
+        "totalLines": 735,
+        "totalStatements": 49,
+        "files": [
+          {
+            "file": "index.ts",
+            "lines": 12,
+            "statements": 0
+          },
+          {
+            "directory": "packages/testing/interfaces/",
+            "totalLines": 38,
+            "totalStatements": 6,
+            "files": [
+              {
+                "file": "index.ts",
+                "lines": 4,
+                "statements": 0
+              },
+              {
+                "file": "mock-factory.ts",
+                "lines": 4,
+                "statements": 1
+              },
+              {
+                "file": "override-by-factory-options.interface.ts",
+                "lines": 8,
+                "statements": 1
+              },
+              {
+                "file": "override-by.interface.ts",
+                "lines": 12,
+                "statements": 3
+              },
+              {
+                "file": "override-module.interface.ts",
+                "lines": 10,
+                "statements": 1
+              }
+            ]
+          },
+          {
+            "file": "package.json",
+            "lines": 38,
+            "statements": 0
+          },
+          {
+            "directory": "packages/testing/services/",
+            "totalLines": 21,
+            "totalStatements": 4,
+            "files": [
+              {
+                "file": "testing-logger.service.ts",
+                "lines": 21,
+                "statements": 4
+              }
+            ]
+          },
+          {
+            "file": "test.ts",
+            "lines": 12,
+            "statements": 1
+          },
+          {
+            "file": "testing-injector.ts",
+            "lines": 77,
+            "statements": 6
+          },
+          {
+            "file": "testing-instance-loader.ts",
+            "lines": 16,
+            "statements": 1
+          },
+          {
+            "file": "testing-module.builder.ts",
+            "lines": 194,
+            "statements": 20
+          },
+          {
+            "file": "testing-module.ts",
+            "lines": 128,
+            "statements": 10
+          },
+          {
+            "file": "tsconfig.build.json",
+            "lines": 33,
+            "statements": 0
+          },
+          {
+            "file": "tsconfig.json",
+            "lines": 14,
+            "statements": 0
+          }
+        ]
+      },
+      {
+        "directory": "packages/websockets/",
+        "totalLines": 3277,
+        "totalStatements": 642,
+        "files": [
+          {
+            "directory": "packages/websockets/adapters/",
+            "totalLines": 63,
+            "totalStatements": 8,
+            "files": [
+              {
+                "file": "index.ts",
+                "lines": 2,
+                "statements": 0
+              },
+              {
+                "file": "ws-adapter.ts",
+                "lines": 61,
+                "statements": 8
+              }
+            ]
+          },
+          {
+            "file": "constants.ts",
+            "lines": 16,
+            "statements": 13
+          },
+          {
+            "directory": "packages/websockets/context/",
+            "totalLines": 365,
+            "totalStatements": 70,
+            "files": [
+              {
+                "file": "exception-filters-context.ts",
+                "lines": 39,
+                "statements": 6
+              },
+              {
+                "file": "ws-context-creator.ts",
+                "lines": 279,
+                "statements": 56
+              },
+              {
+                "file": "ws-metadata-constants.ts",
+                "lines": 7,
+                "statements": 1
+              },
+              {
+                "file": "ws-proxy.ts",
+                "lines": 40,
+                "statements": 7
+              }
+            ]
+          },
+          {
+            "directory": "packages/websockets/decorators/",
+            "totalLines": 143,
+            "totalStatements": 26,
+            "files": [
+              {
+                "file": "connected-socket.decorator.ts",
+                "lines": 10,
+                "statements": 2
+              },
+              {
+                "file": "gateway-server.decorator.ts",
+                "lines": 14,
+                "statements": 4
+              },
+              {
+                "file": "index.ts",
+                "lines": 6,
+                "statements": 0
+              },
+              {
+                "file": "message-body.decorator.ts",
+                "lines": 63,
+                "statements": 6
+              },
+              {
+                "file": "socket-gateway.decorator.ts",
+                "lines": 31,
+                "statements": 10
+              },
+              {
+                "file": "subscribe-message.decorator.ts",
+                "lines": 19,
+                "statements": 4
+              }
+            ]
+          },
+          {
+            "directory": "packages/websockets/enums/",
+            "totalLines": 7,
+            "totalStatements": 0,
+            "files": [
+              {
+                "file": "ws-paramtype.enum.ts",
+                "lines": 7,
+                "statements": 0
+              }
+            ]
+          },
+          {
+            "directory": "packages/websockets/errors/",
+            "totalLines": 38,
+            "totalStatements": 6,
+            "files": [
+              {
+                "file": "index.ts",
+                "lines": 2,
+                "statements": 0
+              },
+              {
+                "file": "invalid-socket-port.exception.ts",
+                "lines": 8,
+                "statements": 2
+              },
+              {
+                "file": "ws-exception.ts",
+                "lines": 28,
+                "statements": 4
+              }
+            ]
+          },
+          {
+            "directory": "packages/websockets/exceptions/",
+            "totalLines": 105,
+            "totalStatements": 10,
+            "files": [
+              {
+                "file": "base-ws-exception-filter.ts",
+                "lines": 62,
+                "statements": 7
+              },
+              {
+                "file": "index.ts",
+                "lines": 2,
+                "statements": 0
+              },
+              {
+                "file": "ws-exceptions-handler.ts",
+                "lines": 41,
+                "statements": 3
+              }
+            ]
+          },
+          {
+            "directory": "packages/websockets/factories/",
+            "totalLines": 41,
+            "totalStatements": 5,
+            "files": [
+              {
+                "file": "server-and-event-streams-factory.ts",
+                "lines": 19,
+                "statements": 4
+              },
+              {
+                "file": "ws-params-factory.ts",
+                "lines": 22,
+                "statements": 1
+              }
+            ]
+          },
+          {
+            "file": "gateway-metadata-explorer.ts",
+            "lines": 65,
+            "statements": 13
+          },
+          {
+            "file": "index.ts",
+            "lines": 15,
+            "statements": 0
+          },
+          {
+            "directory": "packages/websockets/interfaces/",
+            "totalLines": 197,
+            "totalStatements": 8,
+            "files": [
+              {
+                "file": "gateway-metadata.interface.ts",
+                "lines": 124,
+                "statements": 5
+              },
+              {
+                "directory": "packages/websockets/interfaces/hooks/",
+                "totalLines": 25,
+                "totalStatements": 0,
+                "files": [
+                  {
+                    "file": "index.ts",
+                    "lines": 4,
+                    "statements": 0
+                  },
+                  {
+                    "file": "on-gateway-connection.interface.ts",
+                    "lines": 7,
+                    "statements": 0
+                  },
+                  {
+                    "file": "on-gateway-disconnect.interface.ts",
+                    "lines": 7,
+                    "statements": 0
+                  },
+                  {
+                    "file": "on-gateway-init.interface.ts",
+                    "lines": 7,
+                    "statements": 0
+                  }
+                ]
+              },
+              {
+                "file": "index.ts",
+                "lines": 6,
+                "statements": 0
+              },
+              {
+                "file": "nest-gateway.interface.ts",
+                "lines": 9,
+                "statements": 3
+              },
+              {
+                "file": "server-and-event-streams-host.interface.ts",
+                "lines": 12,
+                "statements": 0
+              },
+              {
+                "file": "web-socket-server.interface.ts",
+                "lines": 8,
+                "statements": 0
+              },
+              {
+                "file": "websockets-entrypoint-metadata.interface.ts",
+                "lines": 5,
+                "statements": 0
+              },
+              {
+                "file": "ws-response.interface.ts",
+                "lines": 8,
+                "statements": 0
+              }
+            ]
+          },
+          {
+            "file": "package.json",
+            "lines": 37,
+            "statements": 0
+          },
+          {
+            "file": "socket-module.ts",
+            "lines": 151,
+            "statements": 19
+          },
+          {
+            "file": "socket-server-provider.ts",
+            "lines": 95,
+            "statements": 10
+          },
+          {
+            "file": "sockets-container.ts",
+            "lines": 39,
+            "statements": 3
+          },
+          {
+            "directory": "packages/websockets/test/",
+            "totalLines": 1408,
+            "totalStatements": 399,
+            "files": [
+              {
+                "file": "container.spec.ts",
+                "lines": 57,
+                "statements": 20
+              },
+              {
+                "directory": "packages/websockets/test/context/",
+                "totalLines": 324,
+                "totalStatements": 105,
+                "files": [
+                  {
+                    "file": "exception-filters.context.spec.ts",
+                    "lines": 52,
+                    "statements": 18
+                  },
+                  {
+                    "file": "ws-context-creator.spec.ts",
+                    "lines": 226,
+                    "statements": 67
+                  },
+                  {
+                    "file": "ws-proxy.spec.ts",
+                    "lines": 46,
+                    "statements": 20
+                  }
+                ]
+              },
+              {
+                "directory": "packages/websockets/test/decorators/",
+                "totalLines": 55,
+                "totalStatements": 14,
+                "files": [
+                  {
+                    "file": "connected-socket.decorator.spec.ts",
+                    "lines": 27,
+                    "statements": 7
+                  },
+                  {
+                    "file": "message-body.decorator.spec.ts",
+                    "lines": 28,
+                    "statements": 7
+                  }
+                ]
+              },
+              {
+                "directory": "packages/websockets/test/exceptions/",
+                "totalLines": 162,
+                "totalStatements": 55,
+                "files": [
+                  {
+                    "file": "ws-exception.spec.ts",
+                    "lines": 42,
+                    "statements": 18
+                  },
+                  {
+                    "file": "ws-exceptions-handler.spec.ts",
+                    "lines": 120,
+                    "statements": 37
+                  }
+                ]
+              },
+              {
+                "directory": "packages/websockets/test/factories/",
+                "totalLines": 67,
+                "totalStatements": 22,
+                "files": [
+                  {
+                    "file": "server-and-event-streams-factory.spec.ts",
+                    "lines": 19,
+                    "statements": 5
+                  },
+                  {
+                    "file": "ws-params-factory.spec.ts",
+                    "lines": 48,
+                    "statements": 17
+                  }
+                ]
+              },
+              {
+                "file": "gateway-metadata-explorer.spec.ts",
+                "lines": 78,
+                "statements": 25
+              },
+              {
+                "file": "socket-server-provider.spec.ts",
+                "lines": 81,
+                "statements": 21
+              },
+              {
+                "file": "tsconfig.json",
+                "lines": 4,
+                "statements": 0
+              },
+              {
+                "directory": "packages/websockets/test/utils/",
+                "totalLines": 97,
+                "totalStatements": 30,
+                "files": [
+                  {
+                    "file": "compare-element.util.spec.ts",
+                    "lines": 10,
+                    "statements": 2
+                  },
+                  {
+                    "file": "gateway-server.decorator.spec.ts",
+                    "lines": 22,
+                    "statements": 6
+                  },
+                  {
+                    "file": "socket-gateway.decorator.spec.ts",
+                    "lines": 43,
+                    "statements": 16
+                  },
+                  {
+                    "file": "subscribe-message.decorator.spec.ts",
+                    "lines": 22,
+                    "statements": 6
+                  }
+                ]
+              },
+              {
+                "file": "web-sockets-controller.spec.ts",
+                "lines": 483,
+                "statements": 107
+              }
+            ]
+          },
+          {
+            "file": "tsconfig.build.json",
+            "lines": 23,
+            "statements": 0
+          },
+          {
+            "file": "tsconfig.json",
+            "lines": 14,
+            "statements": 0
+          },
+          {
+            "directory": "packages/websockets/utils/",
+            "totalLines": 54,
+            "totalStatements": 19,
+            "files": [
+              {
+                "file": "compare-element.util.ts",
+                "lines": 8,
+                "statements": 1
+              },
+              {
+                "file": "index.ts",
+                "lines": 2,
+                "statements": 0
+              },
+              {
+                "file": "param.utils.ts",
+                "lines": 44,
+                "statements": 18
+              }
+            ]
+          },
+          {
+            "file": "web-sockets-controller.ts",
+            "lines": 249,
+            "statements": 32
+          }
+        ]
+      }
+    ]
+  }

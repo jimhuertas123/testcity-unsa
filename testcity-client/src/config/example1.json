@@ -1,0 +1,66 @@
+[{
+    "path": "sqliteTesting/src/index.js",
+    "file": "index.js",
+    "components": [
+        {
+            "name": "initDBindex",
+            "startLine": 3,
+            "endLine": 6,
+            "totalLines": 4,
+            "attributes": 2,
+            "methods": 1,
+            "testPercent": "100%",
+            "lineNotCovered": []
+        },
+        {
+            "name": "createTableindex",
+            "startLine": 7,
+            "endLine": 23,
+            "totalLines": 17,
+            "attributes": 3,
+            "methods": 1,
+            "testPercent": "100%",
+            "lineNotCovered": []
+        },
+        {
+            "name": "dropTableindex",
+            "startLine": 25,
+            "endLine": 35,
+            "totalLines": 11,
+            "attributes": 2,
+            "methods": 1,
+            "testPercent": "81.818%",
+            "lineNotCovered": [29,31]
+        },
+        {
+            "name": "insertUserindex",
+            "startLine": 37,
+            "endLine": 47,
+            "totalLines": 11,
+            "attributes": 2,
+            "methods": 1,
+            "testPercent": "81.818%",
+            "lineNotCovered": [41,43]
+        },
+        {
+            "name": "getUsersByNameindex",
+            "startLine": 49,
+            "endLine": 60,
+            "totalLines": 12,
+            "attributes": 2,
+            "methods": 1,
+            "testPercent": "100%",
+            "lineNotCovered": []
+        },
+        {
+            "name": "closeDBPoolindex",
+            "startLine": 62,
+            "endLine": 64,
+            "totalLines": 3,
+            "attributes": 0,
+            "methods": 1,
+            "testPercent": "100%",
+            "lineNotCovered": []
+        }
+    ]
+}]

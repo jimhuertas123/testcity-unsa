@@ -1,0 +1,299 @@
+        {
+            "file": "comp.js",
+            "lines": 65,
+            "statements": 17
+        },
+        {
+            "file": "comp2.js",
+            "lines": 65,
+            "statements": 17
+        },
+        {
+            "directory": "repositories/example-test01904cc02a21c32db126a81403127e6412f707e9/src/ui/",
+            "totalLines": 124,
+            "totalStatements": 26,
+            "files": [
+                {
+                    "file": "compja.js",
+                    "lines": 62,
+                    "statements": 13
+                },
+                {
+                    "directory": "repositories/example-test01904cc02a21c32db126a81403127e6412f707e9/src/ui/widgets/",
+                    "totalLines": 62,
+                    "totalStatements": 13,
+                    "files": [
+                        {
+                            "file": "button.js",
+                            "lines": 62,
+                            "statements": 13
+                        }
+                    ]
+                }
+            ]
+        }
+
+
+
+
+
+{
+    "path": "repositories/example-test01904cc02a21c32db126a81403127e6412f707e9/src/comp.js",
+    "file": "comp.js",
+    "components": [
+        {
+            "name": "initDBcomp",
+            "startLine": 3,
+            "endLine": 6,
+            "totalLines": 4,
+            "attributes": 2,
+            "methods": 1,
+            "testPercent": "100%",
+            "lineNotCovered": []
+        },
+        {
+            "name": "createTablecomp",
+            "startLine": 7,
+            "endLine": 23,
+            "totalLines": 17,
+            "attributes": 3,
+            "methods": 1,
+            "testPercent": "100%",
+            "lineNotCovered": []
+        },
+        {
+            "name": "dropTablecomp",
+            "startLine": 25,
+            "endLine": 35,
+            "totalLines": 11,
+            "attributes": 2,
+            "methods": 1,
+            "testPercent": "81.818%",
+            "lineNotCovered": [29,31]
+        },
+        {
+            "name": "insertUsercomp",
+            "startLine": 37,
+            "endLine": 47,
+            "totalLines": 11,
+            "attributes": 2,
+            "methods": 1,
+            "testPercent": "81.818%",
+            "lineNotCovered": [41,43]
+        },
+        {
+            "name": "getUsersByNamecomp",
+            "startLine": 49,
+            "endLine": 60,
+            "totalLines": 12,
+            "attributes": 2,
+            "methods": 1,
+            "testPercent": "100%",
+            "lineNotCovered": []
+        },
+        {
+            "name": "closeDBPoolcomp",
+            "startLine": 62,
+            "endLine": 64,
+            "totalLines": 3,
+            "attributes": 0,
+            "methods": 1,
+            "testPercent": "100%",
+            "lineNotCovered": []
+        }
+    ]
+},
+{
+    "path": "repositories/example-test01904cc02a21c32db126a81403127e6412f707e9/src/comp2.js",
+    "file": "comp2.js",
+    "components": [
+        {
+            "name": "initDBcomp2",
+            "startLine": 3,
+            "endLine": 6,
+            "totalLines": 4,
+            "attributes": 2,
+            "methods": 1,
+            "testPercent": "100%",
+            "lineNotCovered": []
+        },
+        {
+            "name": "createTablecomp2",
+            "startLine": 7,
+            "endLine": 23,
+            "totalLines": 17,
+            "attributes": 3,
+            "methods": 1,
+            "testPercent": "100%",
+            "lineNotCovered": []
+        },
+        {
+            "name": "dropTablecomp2",
+            "startLine": 25,
+            "endLine": 35,
+            "totalLines": 11,
+            "attributes": 2,
+            "methods": 1,
+            "testPercent": "81.818%",
+            "lineNotCovered": [29,31]
+        },
+        {
+            "name": "insertUsercomp2",
+            "startLine": 37,
+            "endLine": 47,
+            "totalLines": 11,
+            "attributes": 2,
+            "methods": 1,
+            "testPercent": "81.818%",
+            "lineNotCovered": [41,43]
+        },
+        {
+            "name": "getUsersByNamecomp2",
+            "startLine": 49,
+            "endLine": 60,
+            "totalLines": 12,
+            "attributes": 2,
+            "methods": 1,
+            "testPercent": "100%",
+            "lineNotCovered": []
+        },
+        {
+            "name": "closeDBPoolcomp2",
+            "startLine": 62,
+            "endLine": 64,
+            "totalLines": 3,
+            "attributes": 0,
+            "methods": 1,
+            "testPercent": "100%",
+            "lineNotCovered": []
+        }
+    ]
+},
+{
+    "path": "repositories/example-test01904cc02a21c32db126a81403127e6412f707e9/src/ui/",
+    "directory": "ui",
+    "components":[
+        {
+            "path": "repositories/example-test01904cc02a21c32db126a81403127e6412f707e9/src/ui/compja.js",
+            "file": "compja.js",
+            "components": [
+                {
+                    "name": "createTablecompui",
+                    "startLine": 7,
+                    "endLine": 23,
+                    "totalLines": 17,
+                    "attributes": 3,
+                    "methods": 1,
+                    "testPercent": "100%",
+                    "lineNotCovered": []
+                },
+                {
+                    "name": "dropTablecompui",
+                    "startLine": 25,
+                    "endLine": 35,
+                    "totalLines": 11,
+                    "attributes": 2,
+                    "methods": 1,
+                    "testPercent": "81.818%",
+                    "lineNotCovered": [29,31]
+                },
+                {
+                    "name": "insertUsercompui",
+                    "startLine": 37,
+                    "endLine": 47,
+                    "totalLines": 11,
+                    "attributes": 2,
+                    "methods": 1,
+                    "testPercent": "81.818%",
+                    "lineNotCovered": [41,43]
+                },
+                {
+                    "name": "getUsersByNamecompui",
+                    "startLine": 49,
+                    "endLine": 60,
+                    "totalLines": 12,
+                    "attributes": 2,
+                    "methods": 1,
+                    "testPercent": "100%",
+                    "lineNotCovered": []
+                }
+            ]
+        },
+        {
+            "path": "repositories/example-test01904cc02a21c32db126a81403127e6412f707e9/src/ui/widgets/",
+            "directory": "ui/widgets",
+            "components":[
+                {
+                    "path": "repositories/example-test01904cc02a21c32db126a81403127e6412f707e9/src/ui/widgets/button.js",
+                    "file": "button.js",
+                    "components": [
+                        {
+                            "name": "createTable",
+                            "startLine": 7,
+                            "endLine": 23,
+                            "totalLines": 17,
+                            "attributes": 3,
+                            "methods": 1,
+                            "testPercent": "100%",
+                            "lineNotCovered": []
+                        },
+                        {
+                            "name": "dropTable",
+                            "startLine": 25,
+                            "endLine": 35,
+                            "totalLines": 11,
+                            "attributes": 2,
+                            "methods": 1,
+                            "testPercent": "81.818%",
+                            "lineNotCovered": [29,31]
+                        },
+                        {
+                            "name": "insertUser",
+                            "startLine": 37,
+                            "endLine": 47,
+                            "totalLines": 11,
+                            "attributes": 2,
+                            "methods": 1,
+                            "testPercent": "81.818%",
+                            "lineNotCovered": [41,43]
+                        },
+                        {
+                            "name": "getUsersByName",
+                            "startLine": 49,
+                            "endLine": 60,
+                            "totalLines": 12,
+                            "attributes": 2,
+                            "methods": 1,
+                            "testPercent": "100%",
+                            "lineNotCovered": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]}
+
+
+
+
+
+    function onPointerMove(event: MouseEvent) {
+        pointer.x = (event.clientX / window.innerWidth) * 2 - 1;
+        pointer.y = -(event.clientY / window.innerHeight) * 2 + 1;
+    }
+
+    function onClick() {
+        raycaster.setFromCamera(pointer, camera);
+        const intersects = raycaster.intersectObjects(clickableBuildings);
+
+        if (intersects.length > 0) {
+            const building = intersects[0].object as any;
+            const info = building.info as Component;
+
+            if (info) {
+                infoPanel.innerHTML = `
+                    <strong>Component:</strong> ${info.name}<br>
+                    <strong>Attributes:</strong> ${info.attributes}<br>
+                    <strong>Methods:</strong> ${info.methods}<br>
+                    <strong>Total Lines:</strong> ${info.totalLines}<br>
+                    <strong>Lines Not Covered:</strong> ${info.lineNotCovered.join(",
